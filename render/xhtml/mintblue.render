@@ -1,0 +1,197 @@
+--- 
+name: mintBlue
+line: 
+  begin: ""
+  end: ""
+filter: CGI.escapeHTML( @escaped )
+document: 
+  begin: |
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="expires" content="3600" />
+      <meta name="revisit-after" content="2 days" />
+      <meta name="robots" content="index,follow" />
+      <meta name="publisher" content="Dichodaemon" />
+      <meta name="copyright" content="Dichodaemon" />
+    
+      <meta name="author" content="Dichodaemon" />
+      <meta name="distribution" content="global" />
+      <meta name="description" content="Ocatarinetabellachithchix" />
+      <meta name="keywords" content="arzaversperia flexilimosos toves" />
+      <link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/mintblue.css" />
+      <title>mintblue</title>
+    
+    </head>
+    
+    <body>
+
+  end: "  <p>\n    <a href=\"http://validator.w3.org/check?uri=referer\">\n      <img style=\"border:0\"\n           src=\"http://www.w3.org/Icons/valid-xhtml10\"\n           alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\" />\n    </a>\n    <a href=\"http://jigsaw.w3.org/css-validator/check?uri=referer\">\n      <img style=\"border:0;width:88px;height:31px\"\n           src=\"http://jigsaw.w3.org/css-validator/images/vcss\" \n           alt=\"Valid CSS!\" />\n    </a>\n  </p>\n\
+    </body>\n\
+    </html>\n"
+tags: 
+- begin: <span class="Source">
+  end: </span>
+  selector: source -meta.source.embedded, declaration.xml-processing
+- begin: <span class="MetaSourceEmbedded">
+  end: </span>
+  selector: meta.source.embedded -meta.source.embedded.bound
+- begin: <span class="MetaSourceEmbeddedBound">
+  end: </span>
+  selector: meta.source.embedded.bound
+- begin: <span class="MetaSourceEmbeddedBoundSource">
+  end: </span>
+  selector: meta.source.embedded.bound source
+- begin: <span class="MetaSourceEmbeddedScriptTag">
+  end: </span>
+  selector: meta.source.embedded.script-tag -(meta.source.embedded.script-tag source)
+- begin: <span class="SourceJs">
+  end: </span>
+  selector: source.js
+- begin: <span class="SourceString">
+  end: </span>
+  selector: source string, constant
+- begin: <span class="SourceStringQuotedSingle">
+  end: </span>
+  selector: source string.quoted.single
+- begin: <span class="Variable">
+  end: </span>
+  selector: variable -(text string source), support
+- begin: <span class="ConstantCharacterEntity">
+  end: </span>
+  selector: constant.character.entity
+- begin: <span class="TextSource">
+  end: </span>
+  selector: text source -(declaration.tag string)
+- begin: <span class="TextStringSource">
+  end: </span>
+  selector: text string source -meta.source.embedded.bound, meta.source.embedded.return-value -meta.source.embedded.bound, text string meta.source.embedded
+- begin: <span class="SourceStringSource">
+  end: </span>
+  selector: source string source
+- begin: <span class="SourceComment">
+  end: </span>
+  selector: source comment
+- begin: <span class="TextCommentSource">
+  end: </span>
+  selector: text comment -source, declaration.sgml
+- begin: <span class="DeclarationTag">
+  end: </span>
+  selector: declaration.tag, meta.tag
+- begin: <span class="DeclarationSgml">
+  end: </span>
+  selector: declaration.sgml
+- begin: <span class="EntityNameTag">
+  end: </span>
+  selector: entity.name.tag -source
+- begin: <span class="DeclarationAttributeWithValueId">
+  end: </span>
+  selector: declaration.attribute-with-value.id
+- begin: <span class="EntityOtherAttributeName">
+  end: </span>
+  selector: entity.other.attribute-name
+- begin: <span class="DeclarationTagHtmlString">
+  end: </span>
+  selector: declaration.tag string -(declaration.tag string source string), meta.tag string -(meta.tag string source string), meta.tag string meta.source.embedded.return-value
+- begin: <span class="String">
+  end: </span>
+  selector: string
+- begin: <span class="StringInterpolated">
+  end: </span>
+  selector: string.interpolated
+- begin: <span class="MetaEndingSpace">
+  end: </span>
+  selector: meta.ending-space -source
+- begin: <span class="SourceMetaEndingSpace">
+  end: </span>
+  selector: source meta.ending-space -(string meta.source)
+- begin: <span class="SourceMetaLeadingSpace">
+  end: </span>
+  selector: source meta.leading-space -(string meta.source)
+- begin: <span class="SourceMetaOddTab">
+  end: </span>
+  selector: source meta.even-tab -(string meta.source)
+- begin: <span class="MetaLeadingSpace">
+  end: </span>
+  selector: meta.leading-space -meta.round-brackets
+- begin: <span class="StringMetaSourceMetaLeadingSpace">
+  end: </span>
+  selector: string meta.source meta.leading-space, string meta.source meta.ending-space
+- begin: <span class="StringMetaSourceMetaEndingSpace">
+  end: </span>
+  selector: string meta.source meta.ending-space
+- begin: <span class="MetaTab">
+  end: </span>
+  selector: meta.even-tab -meta.round-brackets
+- begin: <span class="RoundBrackets0">
+  end: </span>
+  selector: meta.round-brackets
+- begin: <span class="RoundBrackets1">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets2">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets3">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets4">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets5">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets6">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets7">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets8">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="RoundBrackets9">
+  end: </span>
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: <span class="TextStringSourceTest">
+  end: </span>
+  selector: text string source test
+- begin: <span class="SupportFunction">
+  end: </span>
+  selector: support.function
+- begin: <span class="Keyword">
+  end: </span>
+  selector: keyword
+- begin: <span class="KeywordOperator">
+  end: </span>
+  selector: keyword.operator
+- begin: <span class="Variable1">
+  end: </span>
+  selector: variable &(text string source)
+- begin: <span class="VariableParameterFunction">
+  end: </span>
+  selector: variable.parameter.function, meta.function variable, support.class
+- begin: <span class="MetaFunctionStorageType">
+  end: </span>
+  selector: meta.function, storage.type, support.function, entity.name.function
+- begin: <span class="MetaFunctionStorageType1">
+  end: </span>
+  selector: meta.function  -(text declaration.tag string source), storage.type -(text declaration.tag string source)
+- begin: <span class="StorageStorageTypeFunction">
+  end: </span>
+  selector: storage, storage.type.function, declaration.class
+- begin: <span class="SupportFunctionSupportFunctionEntityNameFunction">
+  end: </span>
+  selector: support.function, support.function entity.name.function
+- begin: <span class="Invalid">
+  end: </span>
+  selector: invalid -declaration.sgml -source
+listing: 
+  begin: <pre class="mintblue">
+  end: </pre>
+line-numbers: 
+  begin: <span class="line-numbers">
+  end: </span>

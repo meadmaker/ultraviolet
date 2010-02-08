@@ -1,0 +1,115 @@
+pre.django .CssPropertyValue {
+   color: #FFE862;
+   font-style: italic;
+}
+pre.django .String {
+   color: #91BB9E;
+}
+pre.django .Constant {
+   color: #497958;
+}
+pre.django .line-numbers {
+   background-color: #245032;
+   color: #FFFFFF;
+}
+pre.django .EmbeddedSource {
+   background-color: #A3A8AD;
+}
+pre.django .Variable {
+   color: #FB9A4B;
+   font-style: italic;
+}
+pre.django .Support {
+   color: #9DF39F;
+}
+pre.django .DiffInserted {
+   background-color: #9BF199;
+   color: #41A83E;
+}
+pre.django .DiffHeader {
+   background-color: #0B2F20;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.django .CssConstructorArgument {
+   color: #EC9799;
+}
+pre.django .Storage {
+   font-weight: bold;
+   color: #FFE862;
+}
+pre.django .DiffChanged {
+   background-color: #C4B14A;
+   color: #F8F8F8;
+}
+pre.django .StringConstant {
+   color: #FFE862;
+}
+pre.django .CssAtRule {
+   color: #FD6209;
+}
+pre.django .CssClass {
+   color: #41A83E;
+}
+pre.django .SupportConstant {
+   color: #EB939A;
+}
+pre.django .MetaTagA {
+   color: #497958;
+}
+pre.django .StringEmbeddedSource {
+   color: #9DF39F;
+}
+pre.django {
+   background-color: #0B2F20;
+   color: #F8F8F8;
+}
+pre.django .CssTagName {
+   color: #AA5507;
+}
+pre.django .SupportFunction {
+   color: #FFB454;
+}
+pre.django .Keyword {
+   color: #96DD3B;
+}
+pre.django .DiffDeleted {
+   background-color: #FEDCDD;
+   color: #EC9799;
+}
+pre.django .CssAdditionalConstants {
+   color: #FFE862;
+}
+pre.django .DoctypeXmlProcessing {
+   color: #73817D;
+}
+pre.django .StringRegexp {
+   color: #FFB454;
+}
+pre.django .EntityInheritedClass {
+   text-decoration: underline;
+   color: #AA5507;
+}
+pre.django .EmbeddedSourceBright {
+   background-color: #9BA1A6;
+}
+pre.django .CssId {
+   color: #FEC758;
+}
+pre.django .StringVariable {
+   color: #EDEF7D;
+}
+pre.django .Invalid {
+   background-color: #FD6209;
+   color: #FFFFFF;
+}
+pre.django .CssPropertyName {
+   color: #96DD3B;
+}
+pre.django .Entity {
+   color: #FEC758;
+}
+pre.django .Comment {
+   color: #245032;
+   font-style: italic;
+}

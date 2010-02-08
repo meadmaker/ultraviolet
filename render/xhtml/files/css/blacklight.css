@@ -1,0 +1,84 @@
+pre.blacklight .Constant1 {
+   color: #82484A;
+}
+pre.blacklight .Constant {
+   color: #00FFFF;
+}
+pre.blacklight .Source {
+   color: #CCCCCC;
+}
+pre.blacklight .line-numbers {
+   background-color: #BC1800;
+   color: #000000;
+}
+pre.blacklight .XmlCdataContent {
+   color: #FEFAF7;
+}
+pre.blacklight .Accessor {
+   color: #FF8000;
+}
+pre.blacklight .ReturnValue {
+   color: #7E5468;
+}
+pre.blacklight .XmlText {
+   color: #C5C5C5;
+}
+pre.blacklight .KeywordOperator {
+   color: #00FFFF;
+}
+pre.blacklight .Storage {
+   color: #82677E;
+}
+pre.blacklight .ControlStatement {
+   color: #92577E;
+}
+pre.blacklight .Property {
+   color: #00C2C4;
+}
+pre.blacklight {
+   background-color: #000000;
+   color: #C1C1C1;
+}
+pre.blacklight .StorageType {
+   color: #8C9281;
+}
+pre.blacklight .AsdocSeeReferences {
+   color: #383B40;
+}
+pre.blacklight .XmlCdataWrapper {
+   color: #A99C6F;
+}
+pre.blacklight .Namespace {
+   color: #654151;
+}
+pre.blacklight .Function {
+   color: #7F7F7F;
+}
+pre.blacklight .AsdocParamReferences {
+   color: #2E383E;
+}
+pre.blacklight .XmlTag {
+   color: #647980;
+}
+pre.blacklight .Type {
+   background-color: #000000;
+   color: #FF0088;
+}
+pre.blacklight .NumberString {
+   background-color: #47B28E;
+   color: #66FFCC;
+}
+pre.blacklight .Import {
+   color: #6C7D6A;
+}
+pre.blacklight .FunctionName {
+   background-color: #000000;
+   color: #CCFF66;
+}
+pre.blacklight .Symbol {
+   color: #CCCCCC;
+}
+pre.blacklight .Comment {
+   color: #47666D;
+   font-style: italic;
+}

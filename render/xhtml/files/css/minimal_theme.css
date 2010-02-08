@@ -1,0 +1,146 @@
+pre.minimal_theme .BlockQuote {
+   background-color: #005BAA;
+}
+pre.minimal_theme .CssPropertyValue {
+   color: #AEB14B;
+}
+pre.minimal_theme .CCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.minimal_theme .String {
+   color: #ECE4CD;
+}
+pre.minimal_theme .EntityOther {
+   color: #BA6912;
+}
+pre.minimal_theme .Constant {
+   color: #F1DDAF;
+}
+pre.minimal_theme .line-numbers {
+   background-color: #180024;
+   color: #FFFFFF;
+}
+pre.minimal_theme .List {
+   background-color: #0F0040;
+}
+pre.minimal_theme .EmbeddedSource {
+   background-color: #24231D;
+   color: #D9D59F;
+}
+pre.minimal_theme .Variable {
+   color: #D1A796;
+}
+pre.minimal_theme .Support {
+   color: #9FC28A;
+}
+pre.minimal_theme .RawMarkup {
+   background-color: #7DBCCF;
+}
+pre.minimal_theme .DiffInserted {
+   background-color: #228000;
+   color: #F8F8F8;
+}
+pre.minimal_theme .DiffHeader {
+   background-color: #000E1A;
+   color: #F8F8F8;
+}
+pre.minimal_theme .CssConstructorArgument {
+   color: #EB939A;
+}
+pre.minimal_theme .LangVariable {
+   color: #FF80E1;
+}
+pre.minimal_theme .Storage {
+   color: #FFEE80;
+}
+pre.minimal_theme {
+   background-color: #302D26;
+   color: #FCFFE0;
+}
+pre.minimal_theme .DiffChanged {
+   background-color: #806F00;
+   color: #F8F8F8;
+}
+pre.minimal_theme .StringConstant {
+   color: #D1F5BC;
+}
+pre.minimal_theme .CssAtRule {
+   color: #FFB010;
+}
+pre.minimal_theme .CssClass {
+   color: #CFB958;
+}
+pre.minimal_theme .Exception {
+   color: #FF1E00;
+}
+pre.minimal_theme .SupportConstant {
+   color: #C27E66;
+}
+pre.minimal_theme .MetaTagA {
+   color: #BABD9C;
+}
+pre.minimal_theme .CCPreprocessorLine {
+   color: #8996A8;
+}
+pre.minimal_theme .StringEmbeddedSource {
+   color: #C9E2B4;
+}
+pre.minimal_theme .BoldMarkup {
+   font-weight: bold;
+   color: #9D80FF;
+}
+pre.minimal_theme .CssTagName {
+   color: #99A190;
+}
+pre.minimal_theme .SupportFunction {
+   color: #85873A;
+}
+pre.minimal_theme .Keyword {
+   color: #949C8B;
+}
+pre.minimal_theme .HeadingMarkup {
+   font-weight: bold;
+}
+pre.minimal_theme .ItalicMarkup {
+   color: #80FFBB;
+   font-style: italic;
+}
+pre.minimal_theme .DiffDeleted {
+   background-color: #800F00;
+   color: #F8F8F8;
+}
+pre.minimal_theme .CssAdditionalConstants {
+   color: #999179;
+}
+pre.minimal_theme .DoctypeXmlProcessing {
+   color: #73817D;
+}
+pre.minimal_theme .StringRegexp {
+   color: #CFFFD4;
+}
+pre.minimal_theme .EntityInheritedClass {
+   color: #7EFCFF;
+}
+pre.minimal_theme .FunctionCall {
+   color: #FFEE80;
+}
+pre.minimal_theme .CssId {
+   color: #CC8844;
+}
+pre.minimal_theme .StringVariable {
+   color: #B8B960;
+}
+pre.minimal_theme .Invalid {
+   background-color: #800F00;
+   color: #F8F8F8;
+}
+pre.minimal_theme .CssPropertyName {
+   color: #E0DDAD;
+}
+pre.minimal_theme .Comment {
+   color: #706D5B;
+   font-style: italic;
+}
+pre.minimal_theme .Entity {
+   color: #E3DE9E;
+}

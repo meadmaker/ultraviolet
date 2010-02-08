@@ -1,0 +1,116 @@
+pre.monoindustrial .ChangedFilesSubversion {
+   background-color: #0B0F0D;
+   color: #FFFFFF;
+}
+pre.monoindustrial .LibraryVariable {
+   color: #5879B7;
+}
+pre.monoindustrial .Constant {
+   color: #E98800;
+}
+pre.monoindustrial .String {
+   background-color: #1A0700;
+   color: #C23800;
+}
+pre.monoindustrial .line-numbers {
+   background-color: #919994;
+   color: #000000;
+}
+pre.monoindustrial .BlocksExpressions1 {
+   background-color: #747C77;
+}
+pre.monoindustrial .LibraryObject {
+   color: #5778B6;
+}
+pre.monoindustrial .Variable {
+   color: #648BD2;
+}
+pre.monoindustrial .BlocksExpressions2 {
+   background-color: #747C77;
+}
+pre.monoindustrial .MarkupTagAttribute {
+   color: #909993;
+}
+pre.monoindustrial .BlocksExpressions3 {
+   background-color: #747C77;
+}
+pre.monoindustrial .Punctuation {
+   color: #C7CCC9;
+}
+pre.monoindustrial .FunctionParameter {
+   color: #648BD2;
+}
+pre.monoindustrial .ClassName {
+   color: #9A2F00;
+}
+pre.monoindustrial .Number {
+   color: #E98800;
+}
+pre.monoindustrial .InheritedClassName {
+   color: #7642B7;
+}
+pre.monoindustrial .StringInterpolation {
+   background-color: #1A0700;
+   color: #E94700;
+}
+pre.monoindustrial .EmbeddedCode {
+   background-color: #151C19;
+   color: #FFFFFF;
+}
+pre.monoindustrial .MarkupNameOfTag {
+   color: #A65EFF;
+}
+pre.monoindustrial .MarkupTag {
+   color: #A65EFF;
+}
+pre.monoindustrial .LibraryConstant {
+   color: #C87500;
+}
+pre.monoindustrial .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+   color: #000000;
+}
+pre.monoindustrial .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.monoindustrial .LibraryFunction {
+   color: #588E60;
+}
+pre.monoindustrial .Keyword {
+   color: #A39E64;
+}
+pre.monoindustrial .PreprocessorLine {
+   background-color: #161D1A;
+   color: #A8B3AB;
+}
+pre.monoindustrial .Invalid {
+   background-color: #481D1B;
+   color: #FFFFFF;
+}
+pre.monoindustrial .PreprocessorDirective {
+   background-color: #161D1A;
+   color: #A8B3AB;
+}
+pre.monoindustrial {
+   background-color: #222C28;
+   color: #FFFFFF;
+}
+pre.monoindustrial .MarkupDtd {
+   color: #888888;
+}
+pre.monoindustrial .MarkupDoctype {
+   color: #888888;
+}
+pre.monoindustrial .FunctionArgumentAndResultTypes {
+   color: #666C68;
+}
+pre.monoindustrial .FunctionName {
+   color: #A8B3AB;
+}
+pre.monoindustrial .Type {
+   color: #C23B00;
+}
+pre.monoindustrial .Comment {
+   background-color: #151C19;
+   color: #666C68;
+}

@@ -1,0 +1,89 @@
+pre.midnight .OcamlPrefixOperator {
+   color: #8DA6CE;
+}
+pre.midnight .OcamlInfixOperator {
+   color: #8DA6CE;
+}
+pre.midnight .MetaFunctionCallPy {
+   color: #BECDE6;
+}
+pre.midnight .Superclass {
+   color: #9149C4;
+   font-style: italic;
+}
+pre.midnight .String {
+   color: #00F13A;
+}
+pre.midnight .Constant {
+   color: #FFD500;
+}
+pre.midnight .line-numbers {
+   background-color: #2500FF;
+   color: #000000;
+}
+pre.midnight .OcamlFPInfixOperator {
+   text-decoration: underline;
+}
+pre.midnight .Variable {
+   color: #99B2FF;
+}
+pre.midnight .Support {
+   color: #7678E2;
+}
+pre.midnight .LatexSupport {
+   color: #FBDE2D;
+}
+pre.midnight .OcamlOperator {
+   color: #F8F8F8;
+}
+pre.midnight .Storage {
+   color: #75AFFF;
+}
+pre.midnight .OcamlFPConstant {
+   text-decoration: underline;
+}
+pre.midnight .InvalidIllegal {
+   background-color: #9D1E15;
+   color: #F8F8F8;
+}
+pre.midnight .StringInterpolation {
+   color: #FF6400;
+}
+pre.midnight .PlistUnquotedString {
+   color: #FFFFFF;
+}
+pre.midnight .OcamlVariant {
+   color: #D5E0F3;
+}
+pre.midnight .MetaTag {
+   color: #8860FF;
+}
+pre.midnight .Keyword {
+   color: #599EFF;
+}
+pre.midnight {
+   background-color: #0A001F;
+   color: #F8F8F8;
+}
+pre.midnight .LatexEnvironmentNested {
+   background-color: #424B8D;
+}
+pre.midnight .LatexEnvironment {
+   background-color: #858090;
+}
+pre.midnight .OcamlFPPrefixOperator {
+   text-decoration: underline;
+}
+pre.midnight .EntityNameSection {
+   color: #FFFFFF;
+}
+pre.midnight .InvalidDeprecated {
+   color: #AB2A1D;
+   font-style: italic;
+}
+pre.midnight .Entity {
+   color: #845DC4;
+}
+pre.midnight .Comment {
+   color: #6900A1;
+}

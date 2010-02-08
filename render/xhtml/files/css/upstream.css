@@ -1,0 +1,115 @@
+pre.upstream .LibraryVariable {
+   color: #2E65A5;
+}
+pre.upstream .String {
+   color: #939F84;
+}
+pre.upstream .UserDefinedConstant {
+   color: #194A87;
+}
+pre.upstream .line-numbers {
+   background-color: #FE73FD;
+   color: #000000;
+}
+pre.upstream .EmbeddedSource {
+   background-color: #000000;
+}
+pre.upstream .LibraryObject {
+   color: #FFF7B0;
+}
+pre.upstream .Section {
+   color: #E2F6FF;
+   font-style: italic;
+}
+pre.upstream .Variable {
+   color: #4F6489;
+}
+pre.upstream .MarkupList {
+   color: #B90690;
+}
+pre.upstream .MarkupTagAttribute {
+   color: #89725B;
+}
+pre.upstream .FunctionParameter {
+   font-style: italic;
+}
+pre.upstream .Number {
+   color: #4F9B00;
+}
+pre.upstream .MarkupHeading {
+   color: #4266A0;
+}
+pre.upstream .InheritedClassName {
+   font-style: italic;
+}
+pre.upstream .StringInterpolation {
+   color: #E2F6F2;
+}
+pre.upstream .BuiltInConstant {
+   color: #194A87;
+}
+pre.upstream .MarkupQuote {
+   color: #000000;
+   font-style: italic;
+}
+pre.upstream .MarkupNameOfTag {
+}
+pre.upstream .MarkupTag {
+   color: #4266A0;
+}
+pre.upstream .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+   color: #0A0B0C;
+}
+pre.upstream .LibraryConstant {
+   color: #529C08;
+}
+pre.upstream {
+   background-color: #000000;
+   color: #E2F6FF;
+}
+pre.upstream .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.upstream .JsOperator {
+   color: #687687;
+}
+pre.upstream .LibraryFunction {
+   color: #BCBE42;
+}
+pre.upstream .Keyword {
+   font-weight: bold;
+   color: #B75C4C;
+}
+pre.upstream .PreprocessorLine {
+   color: #65961E;
+}
+pre.upstream .EmbeddedEmbeddedSource {
+   background-color: #000000;
+}
+pre.upstream .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.upstream .PreprocessorDirective {
+   color: #65961E;
+}
+pre.upstream .MarkupDtd {
+   font-style: italic;
+}
+pre.upstream .MarkupDoctype {
+   color: #888888;
+}
+pre.upstream .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.upstream .TypeName {
+   text-decoration: underline;
+}
+pre.upstream .FunctionName {
+   color: #FFD767;
+}
+pre.upstream .Comment {
+   font-weight: bold;
+   color: #555555;
+}

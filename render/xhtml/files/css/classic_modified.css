@@ -1,0 +1,121 @@
+pre.classic_modified .LibraryVariable {
+   color: #CC6633;
+}
+pre.classic_modified .String {
+   background-color: #FFFFFF;
+   color: #666666;
+}
+pre.classic_modified .UserDefinedConstant {
+   color: #000000;
+}
+pre.classic_modified .line-numbers {
+   background-color: #4D97FF;
+   color: #000000;
+}
+pre.classic_modified .EmbeddedSource {
+   background-color: #FFFFFF;
+}
+pre.classic_modified .LibraryObject {
+   color: #CC6633;
+}
+pre.classic_modified .Section {
+   color: #000000;
+   font-style: italic;
+}
+pre.classic_modified .Variable {
+   color: #318495;
+}
+pre.classic_modified .QueryTitle {
+   color: #CC6633;
+}
+pre.classic_modified {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.classic_modified .MarkupList {
+   color: #B90690;
+}
+pre.classic_modified .MarkupTagAttribute {
+   font-style: italic;
+}
+pre.classic_modified .FunctionParameter {
+}
+pre.classic_modified .Number {
+   color: #FF0000;
+}
+pre.classic_modified .MarkupHeading {
+   font-weight: bold;
+   color: #0C07FF;
+}
+pre.classic_modified .InheritedClassName {
+}
+pre.classic_modified .StringInterpolation {
+   color: #33CC33;
+}
+pre.classic_modified .BuiltInConstant {
+   font-weight: bold;
+   color: #000CFF;
+}
+pre.classic_modified .MarkupQuote {
+   color: #000000;
+   font-style: italic;
+}
+pre.classic_modified .MarkupNameOfTag {
+   font-weight: bold;
+}
+pre.classic_modified .MarkupTag {
+   color: #1C02FF;
+}
+pre.classic_modified .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+   color: #000000;
+}
+pre.classic_modified .LibraryConstant {
+   color: #990099;
+}
+pre.classic_modified .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.classic_modified .JsOperator {
+   color: #000000;
+}
+pre.classic_modified .LibraryFunction {
+   color: #990099;
+}
+pre.classic_modified .Keyword {
+   font-weight: bold;
+   color: #0000FF;
+}
+pre.classic_modified .PreprocessorLine {
+   color: #1A921C;
+}
+pre.classic_modified .EmbeddedEmbeddedSource {
+   background-color: #0E0E0E;
+}
+pre.classic_modified .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.classic_modified .PreprocessorDirective {
+   font-weight: bold;
+   color: #0C450D;
+}
+pre.classic_modified .MarkupDtd {
+   font-style: italic;
+}
+pre.classic_modified .MarkupDoctype {
+   color: #888888;
+}
+pre.classic_modified .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.classic_modified .TypeName {
+}
+pre.classic_modified .FunctionName {
+   font-weight: bold;
+   color: #000099;
+}
+pre.classic_modified .Comment {
+   color: #CCCCCC;
+   font-style: italic;
+}

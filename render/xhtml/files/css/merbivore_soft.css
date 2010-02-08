@@ -1,0 +1,72 @@
+pre.merbivore_soft .String {
+   color: #8EC65F;
+}
+pre.merbivore_soft .Constant {
+   color: #68C1D8;
+}
+pre.merbivore_soft .Source {
+}
+pre.merbivore_soft .line-numbers {
+   background-color: #392243;
+   color: #FFFFFF;
+}
+pre.merbivore_soft .Variable {
+}
+pre.merbivore_soft .DiffHeader {
+   background-color: #5A9EE1;
+}
+pre.merbivore_soft .MarkupTagAttribute {
+   color: #EAF1A3;
+}
+pre.merbivore_soft .DiffRemove {
+   background-color: #AC3735;
+   color: #E6E1DC;
+}
+pre.merbivore_soft .DiffAdd {
+   background-color: #6FC58B;
+   color: #E6E1DC;
+}
+pre.merbivore_soft .Number {
+   color: #7FC578;
+}
+pre.merbivore_soft .StringInterpolation {
+   color: #B3E5B4;
+}
+pre.merbivore_soft .FunctionDefinition {
+}
+pre.merbivore_soft .MarkupTag {
+   color: #FC803A;
+}
+pre.merbivore_soft .LibraryConstant {
+   color: #8EC65F;
+}
+pre.merbivore_soft .ConstantOtherVariable {
+}
+pre.merbivore_soft .LibraryFunction {
+}
+pre.merbivore_soft .Keyword {
+   color: #FC803A;
+}
+pre.merbivore_soft {
+   background-color: #1C1C1C;
+   color: #E6E1DC;
+}
+pre.merbivore_soft .ConstantBuiltIn {
+   color: #E1C582;
+}
+pre.merbivore_soft .Invalid {
+   background-color: #FE3838;
+   color: #FFFFFF;
+}
+pre.merbivore_soft .LibraryType {
+   color: #68C1D8;
+}
+pre.merbivore_soft .ClassDefinition {
+}
+pre.merbivore_soft .ClassInheritence {
+   color: #C984CD;
+}
+pre.merbivore_soft .Comment {
+   color: #AC4BB8;
+   font-style: italic;
+}

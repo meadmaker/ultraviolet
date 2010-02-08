@@ -1,0 +1,203 @@
+pre.ir_white .MarkupComment {
+   color: #C84D09;
+   font-style: italic;
+}
+pre.ir_white .CssPropertyValue {
+   color: #675C06;
+}
+pre.ir_white .String {
+   color: #009F78;
+}
+pre.ir_white .Constant {
+   color: #333366;
+}
+pre.ir_white .line-numbers {
+   background-color: #E0E0ED;
+   color: #000000;
+}
+pre.ir_white .StringRegexpCharacterClass {
+   color: #C29B4E;
+}
+pre.ir_white .Variable {
+   color: #696989;
+}
+pre.ir_white .Support {
+   color: #646409;
+}
+pre.ir_white .Class {
+   text-decoration: underline;
+   color: #646409;
+}
+pre.ir_white .MarkupList {
+   color: #46391E;
+}
+pre.ir_white .DiffInserted {
+   background-color: #253B22;
+   color: #FFFFFF;
+}
+pre.ir_white .DiffHeader {
+   background-color: #0E2231;
+   color: #FFFFFF;
+   font-style: italic;
+}
+pre.ir_white .CssConstructorArgument {
+   color: #628795;
+}
+pre.ir_white .CCCPreprocessorDirective {
+   color: #502424;
+}
+pre.ir_white .Storage {
+   color: #877611;
+}
+pre.ir_white .LogEntryError {
+   background-color: #751012;
+   color: #FFFFFF;
+}
+pre.ir_white .DiffChanged {
+   background-color: #4A410D;
+   color: #FFFFFF;
+}
+pre.ir_white .StringConstant {
+   color: #00FF00;
+}
+pre.ir_white .Punctuation {
+}
+pre.ir_white .Number {
+   color: #8C008A;
+}
+pre.ir_white .MarkupSeparator {
+   background-color: #242424;
+   color: #746DFF;
+}
+pre.ir_white .MarkupUnderline {
+   text-decoration: underline;
+   color: #9B431E;
+}
+pre.ir_white .CssAtRule {
+   color: #795A5A;
+}
+pre.ir_white .InvalidIllegal {
+   background-color: #F6D8F5;
+   color: #A00294;
+}
+pre.ir_white .MarkupHeading {
+   background-color: #632D04;
+   color: #D95B06;
+}
+pre.ir_white .CssClass {
+   color: #2A85CF;
+}
+pre.ir_white .SupportConstant {
+   color: #582B00;
+}
+pre.ir_white .StringRegexpGroup {
+   background-color: #191919;
+   color: #B08C39;
+}
+pre.ir_white .StringPunctuation {
+   color: #00FF00;
+}
+pre.ir_white .MarkupQuote {
+   background-color: #FEE2A2;
+   color: #46391E;
+   font-style: italic;
+}
+pre.ir_white .MetaTagInline {
+   color: #00528B;
+}
+pre.ir_white .CCCPreprocessorLine {
+   color: #765757;
+}
+pre.ir_white .StorageModifier {
+   color: #014A69;
+}
+pre.ir_white .CssPseudoClass {
+   color: #628795;
+}
+pre.ir_white .CssTagName {
+   text-decoration: underline;
+   color: #0067C2;
+}
+pre.ir_white .SupportFunction {
+   color: #7A7025;
+}
+pre.ir_white .Keyword {
+   color: #016692;
+}
+pre.ir_white .LogEntry {
+   background-color: #F0F0F0;
+}
+pre.ir_white .DiffDeleted {
+   background-color: #420E09;
+   color: #FFFFFF;
+}
+pre.ir_white .CssAdditionalConstants {
+   color: #3C785D;
+}
+pre.ir_white .MetaTagAll {
+   color: #0067C2;
+}
+pre.ir_white .DoctypeXmlProcessing {
+   color: #010101;
+}
+pre.ir_white .StringRegexpSpecial {
+   color: #FF8000;
+}
+pre.ir_white .StringRegexp {
+   color: #9D7416;
+}
+pre.ir_white .EntityInheritedClass {
+   color: #D19264;
+   font-style: italic;
+}
+pre.ir_white .EmbeddedSourceBright {
+   background-color: #B3B5BC;
+}
+pre.ir_white .MarkupRaw {
+   background-color: #B3B5BC;
+   color: #7C4CA8;
+}
+pre.ir_white .MarkupBold {
+   font-weight: bold;
+   color: #9D7416;
+}
+pre.ir_white .CssId {
+   color: #667587;
+}
+pre.ir_white .MetaTagAttributeName {
+   color: #BC4D00;
+}
+pre.ir_white .JCast {
+   color: #010101;
+   font-style: italic;
+}
+pre.ir_white .StringVariable {
+   color: #756565;
+}
+pre.ir_white .StringEmbeddedVariable {
+   color: #000000;
+}
+pre.ir_white .MarkupItalic {
+   color: #9D7416;
+   font-style: italic;
+}
+pre.ir_white .CssPropertyName {
+   color: #000000;
+}
+pre.ir_white .Namespaces {
+   color: #9B431E;
+}
+pre.ir_white .InvalidDeprecated {
+   color: #A00294;
+   font-style: italic;
+}
+pre.ir_white .Entity {
+   color: #A15001;
+}
+pre.ir_white .Comment {
+   color: #898989;
+}
+pre.ir_white {
+   background-color: #FFFFFF;
+   color: #010101;
+}

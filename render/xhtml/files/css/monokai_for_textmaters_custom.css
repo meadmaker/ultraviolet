@@ -1,0 +1,222 @@
+pre.monokai_for_textmaters_custom .Markdown {
+   background-color: #282822;
+}
+pre.monokai_for_textmaters_custom .PhpVariable1 {
+   color: #C3003A;
+}
+pre.monokai_for_textmaters_custom .Xml {
+   background-color: #212E21;
+}
+pre.monokai_for_textmaters_custom .CssSelector {
+   background-color: #050504;
+}
+pre.monokai_for_textmaters_custom .RoundBraces {
+   background-color: #0E280A;
+   color: #82F827;
+}
+pre.monokai_for_textmaters_custom .LibraryVariable {
+}
+pre.monokai_for_textmaters_custom .UserDefinedConstant {
+   color: #AE81FF;
+}
+pre.monokai_for_textmaters_custom .String {
+   color: #E6DB74;
+}
+pre.monokai_for_textmaters_custom .MonokaiForTextmatersCustom {
+   text-decoration: underline;
+}
+pre.monokai_for_textmaters_custom .line-numbers {
+   background-color: #8802DE;
+   color: #000000;
+}
+pre.monokai_for_textmaters_custom .Php {
+   background-color: #1A1B17;
+}
+pre.monokai_for_textmaters_custom .EmbeddedSource {
+   background-color: #1A1B17;
+}
+pre.monokai_for_textmaters_custom .InheritedClass {
+   background-color: #242C1E;
+   text-decoration: underline;
+   color: #A6E22E;
+}
+pre.monokai_for_textmaters_custom .Variable {
+}
+pre.monokai_for_textmaters_custom .AsClass {
+   background-color: #57594C;
+   color: #66D9EF;
+}
+pre.monokai_for_textmaters_custom .BooleanFalse {
+   background-color: #FF2400;
+   color: #000000;
+}
+pre.monokai_for_textmaters_custom .Storage {
+   color: #F92672;
+}
+pre.monokai_for_textmaters_custom .MarkdownHeading1 {
+   background-color: #331422;
+   color: #FF0086;
+}
+pre.monokai_for_textmaters_custom .TagName {
+   color: #F92672;
+}
+pre.monokai_for_textmaters_custom .ClassName {
+   background-color: #0A0A09;
+   text-decoration: underline;
+   color: #A6E22E;
+}
+pre.monokai_for_textmaters_custom .Number {
+   color: #AE81FF;
+}
+pre.monokai_for_textmaters_custom .Regexp {
+   background-color: #5D662D;
+   color: #F8F800;
+}
+pre.monokai_for_textmaters_custom .HtmlTag {
+   background-color: #C5F601;
+}
+pre.monokai_for_textmaters_custom .MarkdownHeading2 {
+   background-color: #241419;
+   color: #FF0086;
+}
+pre.monokai_for_textmaters_custom .CssWildcard {
+   background-color: #CE6306;
+   color: #F87200;
+}
+pre.monokai_for_textmaters_custom .FunctionStorageName {
+   background-color: #E1FF3C;
+   color: #424B27;
+}
+pre.monokai_for_textmaters_custom .Extends {
+   background-color: #2B2222;
+}
+pre.monokai_for_textmaters_custom .OriginalByMonokaiNl {
+   background-color: #FEFB31;
+   color: #170B10;
+}
+pre.monokai_for_textmaters_custom {
+   background-color: #272822;
+   color: #F8F8F2;
+}
+pre.monokai_for_textmaters_custom .MarkdownHardLineBreak {
+   background-color: #10100D;
+}
+pre.monokai_for_textmaters_custom .MarkdownLink {
+   background-color: #0E280A;
+   color: #74DE23;
+}
+pre.monokai_for_textmaters_custom .CssClass {
+   background-color: #E2E203;
+   color: #F8F800;
+}
+pre.monokai_for_textmaters_custom .RubyVariableOtherReadwriteInstanceRuby {
+   background-color: #5D0F5B;
+   color: #FF13BE;
+}
+pre.monokai_for_textmaters_custom .FunctionArgument {
+   background-color: #94CB13;
+   color: #E1FF3C;
+}
+pre.monokai_for_textmaters_custom .StorageType {
+   background-color: #468088;
+   color: #66D9EF;
+}
+pre.monokai_for_textmaters_custom .BuiltInConstant {
+   color: #AE81FF;
+}
+pre.monokai_for_textmaters_custom .CssImport {
+   background-color: #800F7E;
+   color: #E1CAF6;
+}
+pre.monokai_for_textmaters_custom .LibraryConstant {
+   background-color: #070706;
+   color: #66D9EF;
+}
+pre.monokai_for_textmaters_custom .OtherConstant {
+   color: #BBEA9C;
+}
+pre.monokai_for_textmaters_custom .RegexpBrackets {
+   color: #F89200;
+}
+pre.monokai_for_textmaters_custom .CustomByDieneuemodernCom {
+   background-color: #FFFE01;
+   color: #170B10;
+}
+pre.monokai_for_textmaters_custom .PhpTag {
+   background-color: #63C51E;
+   color: #BEFF1F;
+}
+pre.monokai_for_textmaters_custom .CssPseudoClass {
+   background-color: #67143D;
+   color: #FF0086;
+}
+pre.monokai_for_textmaters_custom .RubyBeforeVariable {
+   color: #C3003A;
+}
+pre.monokai_for_textmaters_custom .LibraryFunction {
+   background-color: #ECF2CE;
+   color: #66D9EF;
+}
+pre.monokai_for_textmaters_custom .TagAttribute {
+   color: #A6E22E;
+}
+pre.monokai_for_textmaters_custom .Keyword {
+   background-color: #0B0C0A;
+   color: #F92672;
+}
+pre.monokai_for_textmaters_custom .QuotedString {
+   background-color: #070706;
+}
+pre.monokai_for_textmaters_custom .PhpVariable {
+   background-color: #690A3A;
+   color: #FF0086;
+}
+pre.monokai_for_textmaters_custom .Css1 {
+   color: #F8F8F2;
+}
+pre.monokai_for_textmaters_custom .Css {
+   background-color: #22231E;
+}
+pre.monokai_for_textmaters_custom .AsFunctionS {
+   background-color: #273111;
+   color: #F8F800;
+}
+pre.monokai_for_textmaters_custom .CssTag {
+   background-color: #E22669;
+   color: #F92672;
+}
+pre.monokai_for_textmaters_custom .CssId {
+   background-color: #99CF2C;
+   color: #A6E22E;
+}
+pre.monokai_for_textmaters_custom .Invalid {
+   background-color: #FF0000;
+   color: #F8F8F0;
+}
+pre.monokai_for_textmaters_custom .LibraryClassType {
+   background-color: #19353B;
+   color: #3C808D;
+}
+pre.monokai_for_textmaters_custom .PhpPeriodKeyword {
+   background-color: #6FE41D;
+   color: #74F01D;
+}
+pre.monokai_for_textmaters_custom .SourceRubyEmbeddedSource {
+   background-color: #1E1F1A;
+   color: #F8F800;
+}
+pre.monokai_for_textmaters_custom .BooleanTrue {
+   background-color: #96FF00;
+   color: #000000;
+}
+pre.monokai_for_textmaters_custom .InvalidDeprecated {
+   background-color: #AE81FF;
+   color: #F8F8F0;
+}
+pre.monokai_for_textmaters_custom .FunctionName {
+   color: #A6E22E;
+}
+pre.monokai_for_textmaters_custom .Comment {
+   background-color: #DE2B7F;
+   color: #FFFFFF;
+}

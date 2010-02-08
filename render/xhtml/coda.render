@@ -1,0 +1,134 @@
+--- 
+name: Coda
+line: 
+  begin: ""
+  end: ""
+filter: CGI.escapeHTML( @escaped )
+document: 
+  begin: |
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="expires" content="3600" />
+      <meta name="revisit-after" content="2 days" />
+      <meta name="robots" content="index,follow" />
+      <meta name="publisher" content="Dichodaemon" />
+      <meta name="copyright" content="Dichodaemon" />
+    
+      <meta name="author" content="Dichodaemon" />
+      <meta name="distribution" content="global" />
+      <meta name="description" content="Ocatarinetabellachithchix" />
+      <meta name="keywords" content="arzaversperia flexilimosos toves" />
+      <link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/coda.css" />
+      <title>coda</title>
+    
+    </head>
+    
+    <body>
+
+  end: "  <p>\n    <a href=\"http://validator.w3.org/check?uri=referer\">\n      <img style=\"border:0\"\n           src=\"http://www.w3.org/Icons/valid-xhtml10\"\n           alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\" />\n    </a>\n    <a href=\"http://jigsaw.w3.org/css-validator/check?uri=referer\">\n      <img style=\"border:0;width:88px;height:31px\"\n           src=\"http://jigsaw.w3.org/css-validator/images/vcss\" \n           alt=\"Valid CSS!\" />\n    </a>\n  </p>\n\
+    </body>\n\
+    </html>\n"
+tags: 
+- begin: <span class="Comment">
+  end: </span>
+  selector: comment
+- begin: <span class="String">
+  end: </span>
+  selector: string
+- begin: <span class="Number">
+  end: </span>
+  selector: constant.numeric
+- begin: <span class="BuiltInConstant">
+  end: </span>
+  selector: constant.language
+- begin: <span class="UserDefinedConstant">
+  end: </span>
+  selector: constant.character, constant.other
+- begin: <span class="Variable">
+  end: </span>
+  selector: variable.language, variable.other
+- begin: <span class="Keyword">
+  end: </span>
+  selector: keyword
+- begin: <span class="Storage">
+  end: </span>
+  selector: storage
+- begin: <span class="ClassName">
+  end: </span>
+  selector: entity.name.class
+- begin: <span class="InheritedClass">
+  end: </span>
+  selector: entity.other.inherited-class
+- begin: <span class="FunctionName">
+  end: </span>
+  selector: entity.name.function
+- begin: <span class="FunctionArgument">
+  end: </span>
+  selector: variable.parameter
+- begin: <span class="TagName">
+  end: </span>
+  selector: entity.name.tag
+- begin: <span class="TagAttribute">
+  end: </span>
+  selector: entity.other.attribute-name
+- begin: <span class="LibraryFunction">
+  end: </span>
+  selector: support.function
+- begin: <span class="Keyword1">
+  end: </span>
+  selector: keyword
+- begin: <span class="ClassVariable">
+  end: </span>
+  selector: variable.other, variable.js, punctuation.separator.variable
+- begin: <span class="LanguageConstant">
+  end: </span>
+  selector: constant.language
+- begin: <span class="MetaBrace">
+  end: </span>
+  selector: punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html
+- begin: <span class="Invalid">
+  end: </span>
+  selector: invalid
+- begin: <span class="NormalVariable">
+  end: </span>
+  selector: variable.other.php, variable.other.normal
+- begin: <span class="FunctionCall">
+  end: </span>
+  selector: meta.function-call
+- begin: <span class="KeywordControl">
+  end: </span>
+  selector: keyword.control
+- begin: <span class="Tag">
+  end: </span>
+  selector: meta.tag
+- begin: <span class="TagName1">
+  end: </span>
+  selector: entity.name.tag
+- begin: <span class="Doctype">
+  end: </span>
+  selector: meta.doctype, meta.tag.sgml-declaration.doctype, meta.tag.sgml.doctype
+- begin: <span class="TagInlineSource">
+  end: </span>
+  selector: meta.tag.inline source, text.html.php.source
+- begin: <span class="TagOther">
+  end: </span>
+  selector: meta.tag.other, entity.name.tag.style, entity.name.tag.script, meta.tag.block.script, source.js.embedded punctuation.definition.tag.html, source.css.embedded punctuation.definition.tag.html
+- begin: <span class="TagAttribute1">
+  end: </span>
+  selector: entity.other.attribute-name, meta.tag punctuation.definition.string
+- begin: <span class="TagValue">
+  end: </span>
+  selector: meta.tag string -source -punctuation, text source text meta.tag string -punctuation
+- begin: <span class="MetaBrace1">
+  end: </span>
+  selector: punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html
+listing: 
+  begin: <pre class="coda">
+  end: </pre>
+line-numbers: 
+  begin: <span class="line-numbers">
+  end: </span>

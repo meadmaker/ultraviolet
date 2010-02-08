@@ -1,0 +1,164 @@
+pre.sin_city_2 .LibraryVariable {
+   font-weight: bold;
+   color: #E0E0E0;
+}
+pre.sin_city_2 .String {
+   color: #9B9B9B;
+}
+pre.sin_city_2 .UserDefinedConstant {
+   font-weight: bold;
+   color: #C5C5C5;
+}
+pre.sin_city_2 .line-numbers {
+   background-color: #AA5500;
+   color: #000000;
+}
+pre.sin_city_2 .Sin {
+   background-color: #4F361D;
+   color: #D89F69;
+}
+pre.sin_city_2 .MetaRoundBrackets2 {
+   background-color: #1D1D1D;
+}
+pre.sin_city_2 .EmbeddedSource {
+   background-color: #818181;
+}
+pre.sin_city_2 .LibraryObject {
+   font-weight: bold;
+   color: #DEDEDE;
+}
+pre.sin_city_2 .Section {
+   font-style: italic;
+}
+pre.sin_city_2 .Variable {
+   background-color: #22223F;
+   color: #808080;
+}
+pre.sin_city_2 .MetaTab {
+   background-color: #414141;
+}
+pre.sin_city_2 .KeywordOperator {
+   color: #555555;
+}
+pre.sin_city_2 .MetaRoundBrackets3 {
+   background-color: #1D1D1D;
+}
+pre.sin_city_2 .FunctionName1 {
+   background-color: #223F3F;
+   color: #FFFFFF;
+}
+pre.sin_city_2 .MarkupTagAttribute {
+   font-style: italic;
+}
+pre.sin_city_2 .TheDevilYouSay {
+   font-weight: bold;
+   background-color: #000000;
+   color: #404040;
+}
+pre.sin_city_2 .MetaRoundBrackets4 {
+   background-color: #1D1D1D;
+}
+pre.sin_city_2 .FunctionParameter {
+   font-style: italic;
+}
+pre.sin_city_2 .ClassName {
+   text-decoration: underline;
+}
+pre.sin_city_2 .Number {
+   color: #AAAAAA;
+}
+pre.sin_city_2 .EvilSin {
+   background-color: #5A5A5A;
+}
+pre.sin_city_2 .MildSin {
+   background-color: #4F361D;
+   color: #D76A00;
+}
+pre.sin_city_2 .MetaRoundBrackets5 {
+   background-color: #1D1D1D;
+}
+pre.sin_city_2 .SourceComment {
+   background-color: #303030;
+   color: #666666;
+   font-style: italic;
+}
+pre.sin_city_2 .Doom {
+   background-color: #8A0A0A;
+}
+pre.sin_city_2 .InheritedClassName {
+   font-style: italic;
+}
+pre.sin_city_2 .StringInterpolation {
+   color: #E4E4E4;
+}
+pre.sin_city_2 .BuiltInConstant {
+   font-weight: bold;
+   color: #F6F6F6;
+}
+pre.sin_city_2 .MetaRoundBrackets {
+   background-color: #1D1D1D;
+}
+pre.sin_city_2 .MarkupNameOfTag {
+   font-weight: bold;
+}
+pre.sin_city_2 .MarkupTag {
+   background-color: #424242;
+   color: #F2F2F2;
+}
+pre.sin_city_2 .InvalidTrailingWhitespace {
+   background-color: #FFFFFF;
+}
+pre.sin_city_2 .LibraryConstant {
+   font-weight: bold;
+   color: #AFAFAF;
+}
+pre.sin_city_2 .MarkupXmlDeclaration {
+   color: #8F8F8F;
+}
+pre.sin_city_2 .JsOperator {
+   color: #878787;
+}
+pre.sin_city_2 .LibraryFunction {
+   font-weight: bold;
+   color: #D9D9D9;
+}
+pre.sin_city_2 .Keyword {
+   font-weight: bold;
+   color: #EDEDED;
+}
+pre.sin_city_2 {
+   background-color: #2A2A2A;
+   color: #A6A6A6;
+}
+pre.sin_city_2 .PreprocessorLine {
+   color: #929292;
+}
+pre.sin_city_2 .Invalid {
+   background-color: #999999;
+   color: #FFFFFF;
+}
+pre.sin_city_2 .PreprocessorDirective {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.sin_city_2 .MoreSin {
+   color: #FFFF08;
+}
+pre.sin_city_2 .MarkupDtd {
+   font-style: italic;
+}
+pre.sin_city_2 .MarkupDoctype {
+   color: #888888;
+}
+pre.sin_city_2 .FunctionArgumentAndResultTypes {
+   color: #9C9C9C;
+}
+pre.sin_city_2 .FunctionName {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.sin_city_2 .Comment {
+   background-color: #575757;
+   color: #999999;
+   font-style: italic;
+}

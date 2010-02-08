@@ -1,0 +1,88 @@
+pre.clouds_midnight .LibraryVariable {
+}
+pre.clouds_midnight .CssSelector {
+   color: #E92E2E;
+}
+pre.clouds_midnight .UserDefinedConstant {
+}
+pre.clouds_midnight .String {
+   color: #5D90CD;
+}
+pre.clouds_midnight .line-numbers {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.clouds_midnight .InheritedClass {
+   color: #858585;
+}
+pre.clouds_midnight .Variable {
+}
+pre.clouds_midnight .JsSupportClass {
+   color: #A165AC;
+}
+pre.clouds_midnight .Storage {
+   color: #E92E2E;
+}
+pre.clouds_midnight .KeywordOperator {
+   color: #4B4B4B;
+}
+pre.clouds_midnight .KeywordUnit {
+   color: #366F1A;
+}
+pre.clouds_midnight .PunctuationTags {
+   color: #606060;
+}
+pre.clouds_midnight .CssProperty {
+   color: #616161;
+}
+pre.clouds_midnight .TagName {
+   color: #606060;
+}
+pre.clouds_midnight .ClassName {
+}
+pre.clouds_midnight .Number {
+   color: #46A609;
+}
+pre.clouds_midnight .PunctuationWidgets {
+   color: #E92E2E;
+}
+pre.clouds_midnight .FunctionArgument {
+}
+pre.clouds_midnight .BuiltInConstant {
+   color: #39946A;
+}
+pre.clouds_midnight .LibraryConstant {
+}
+pre.clouds_midnight .HtmlEntity {
+   color: #A165AC;
+}
+pre.clouds_midnight .LibraryFunction {
+   color: #E92E2E;
+}
+pre.clouds_midnight .TagAttribute {
+   color: #606060;
+}
+pre.clouds_midnight .HtmlAttribute {
+   color: #A46763;
+}
+pre.clouds_midnight .Keyword {
+   color: #927C5D;
+}
+pre.clouds_midnight {
+   background-color: #191919;
+   color: #929292;
+}
+pre.clouds_midnight .Invalid {
+   background-color: #E92E2E;
+   color: #FFFFFF;
+}
+pre.clouds_midnight .LibraryClassType {
+}
+pre.clouds_midnight .KeywordCss {
+   color: #A165AC;
+}
+pre.clouds_midnight .FunctionName {
+}
+pre.clouds_midnight .Comment {
+   color: #3C403B;
+}

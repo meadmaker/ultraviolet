@@ -1,0 +1,52 @@
+pre.whys_poignant .String {
+   background-color: #E8F5F5;
+   color: #2A9A66;
+}
+pre.whys_poignant .line-numbers {
+   background-color: #3B88CD;
+   color: #000000;
+}
+pre.whys_poignant .Variable {
+   color: #2D669A;
+}
+pre.whys_poignant {
+   background-color: #FFFEF9;
+   color: #2D669A;
+}
+pre.whys_poignant .Number {
+   color: #2A9A66;
+}
+pre.whys_poignant .Punctuation {
+   color: #9D3266;
+}
+pre.whys_poignant .ClassName {
+   font-weight: bold;
+   color: #4F1900;
+}
+pre.whys_poignant .Regex {
+   background-color: #E8F1F5;
+   color: #443355;
+}
+pre.whys_poignant .StringPunctuation {
+   background-color: #FFFEF9;
+   color: #9D3266;
+}
+pre.whys_poignant .Misc {
+   font-weight: bold;
+}
+pre.whys_poignant .WhySPoignantGuideToRuby {
+   font-weight: bold;
+}
+pre.whys_poignant .Keyword {
+   font-weight: bold;
+   color: #761B48;
+}
+pre.whys_poignant .HttpPoignantguideNetRuby {
+   text-decoration: underline;
+}
+pre.whys_poignant .Comment {
+   color: #555555;
+}
+pre.whys_poignant .Symbol {
+   color: #000000;
+}

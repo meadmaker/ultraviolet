@@ -1,0 +1,80 @@
+pre.eclips3media_eclm .String {
+   color: #0069CC;
+}
+pre.eclips3media_eclm .Constant {
+   color: #6D9CBE;
+}
+pre.eclips3media_eclm .Source {
+   background-color: #1D1D1D;
+}
+pre.eclips3media_eclm .line-numbers {
+   background-color: #5A647E;
+   color: #FFFFFF;
+}
+pre.eclips3media_eclm .Variable {
+   color: #C9CEFF;
+}
+pre.eclips3media_eclm .DiffHeader {
+   background-color: #2F33AB;
+}
+pre.eclips3media_eclm .DiffRemove {
+   background-color: #660000;
+   color: #E6E1DC;
+}
+pre.eclips3media_eclm .DiffAdd {
+   background-color: #144212;
+   color: #E6E1DC;
+}
+pre.eclips3media_eclm .Number {
+   color: #96D339;
+}
+pre.eclips3media_eclm .StringInterpolation {
+   color: #519F50;
+}
+pre.eclips3media_eclm .FunctionDefinition {
+   font-weight: bold;
+   background-color: #000000;
+   color: #FF00AC;
+}
+pre.eclips3media_eclm .MarkupTag {
+   color: #000000;
+}
+pre.eclips3media_eclm .LibraryConstant {
+   color: #A5C261;
+}
+pre.eclips3media_eclm .ConstantOtherVariable {
+   color: #DA4939;
+}
+pre.eclips3media_eclm {
+   background-color: #2B2B2B;
+   color: #E6E1DE;
+}
+pre.eclips3media_eclm .LibraryFunction {
+   background-color: #2B2B2B;
+   color: #00C5FF;
+}
+pre.eclips3media_eclm .Keyword {
+   font-weight: bold;
+   background-color: #808080;
+   color: #69A1FF;
+}
+pre.eclips3media_eclm .ConstantBuiltIn {
+   color: #6E9CBE;
+}
+pre.eclips3media_eclm .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+   font-style: italic;
+}
+pre.eclips3media_eclm .LibraryType {
+   color: #6E9CBE;
+}
+pre.eclips3media_eclm .ClassDefinition {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.eclips3media_eclm .Comment {
+   background-color: #282828;
+   color: #ABA7A5;
+   font-style: italic;
+}

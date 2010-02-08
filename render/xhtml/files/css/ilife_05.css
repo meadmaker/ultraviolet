@@ -1,0 +1,175 @@
+pre.ilife_05 .SpecialSeperator {
+   background-color: #FFFFCD;
+   color: #D76A00;
+}
+pre.ilife_05 .MetaRoundBrackets1 {
+   background-color: #C5E3EA;
+}
+pre.ilife_05 .LibraryVariable {
+}
+pre.ilife_05 .UserDefinedConstant {
+   background-color: #E3EED4;
+   color: #1C7A1F;
+}
+pre.ilife_05 .String {
+   background-color: #FFFDEB;
+   color: #69B200;
+}
+pre.ilife_05 .MetaSourceEmbeddedReturnValue {
+   background-color: #F4FFE6;
+   color: #B6D48F;
+}
+pre.ilife_05 .Source {
+   background-color: #FFFFFF;
+   color: #565859;
+}
+pre.ilife_05 .line-numbers {
+   background-color: #A600F6;
+   color: #000000;
+}
+pre.ilife_05 .MetaRoundBrackets2 {
+   background-color: #DDEEF3;
+}
+pre.ilife_05 .InheritedClass {
+}
+pre.ilife_05 .Variable {
+   font-weight: bold;
+   color: #308095;
+}
+pre.ilife_05 .ConstantCharacterConstantOther {
+   background-color: #FFFEF4;
+}
+pre.ilife_05 .TagAttributeValue {
+   color: #69B200;
+}
+pre.ilife_05 {
+   background-color: #FFFFFF;
+   color: #333333;
+}
+pre.ilife_05 .MetaRoundBrackets3 {
+   background-color: #DDEEF3;
+}
+pre.ilife_05 .Storage {
+   font-weight: bold;
+   background-color: #E1E1E1;
+   color: #999999;
+}
+pre.ilife_05 .Keyword1 {
+   background-color: #F5DEE3;
+}
+pre.ilife_05 .StringSourceString {
+}
+pre.ilife_05 .StringInterpolated {
+   background-color: #FFFF7F;
+}
+pre.ilife_05 .MetaLeadingSpace {
+   background-color: #FFFFCD;
+}
+pre.ilife_05 .MetaRoundBrackets4 {
+   background-color: #DDEEF3;
+}
+pre.ilife_05 .SupportClassCollection {
+   font-weight: bold;
+}
+pre.ilife_05 .SupportClass {
+   background-color: #D8E8D8;
+   color: #1C7A1F;
+}
+pre.ilife_05 .ClassName {
+}
+pre.ilife_05 .Number {
+   font-weight: bold;
+   color: #69B200;
+}
+pre.ilife_05 .TagName {
+   font-weight: bold;
+   color: #308095;
+}
+pre.ilife_05 .MetaPropertyValueCss {
+   background-color: #C5E3EA;
+   color: #39A0BA;
+}
+pre.ilife_05 .MetaRoundBrackets5 {
+   background-color: #DDEEF3;
+   color: #191919;
+}
+pre.ilife_05 .MetaPropertyFunction {
+   background-color: #1C7A1F;
+   color: #B6D48F;
+}
+pre.ilife_05 .SupportConstantPropertyValueCss {
+   color: #AA5500;
+}
+pre.ilife_05 .MetaRoundBrackets6 {
+   background-color: #DDEEF3;
+}
+pre.ilife_05 .FunctionArgument {
+   font-weight: bold;
+   color: #62D6F4;
+}
+pre.ilife_05 .BuiltInConstant {
+   font-weight: bold;
+   color: #1C7A1F;
+}
+pre.ilife_05 .SourceCss {
+}
+pre.ilife_05 .LibraryConstant {
+   background-color: #DAE9C6;
+   color: #69B200;
+}
+pre.ilife_05 .StringSource {
+   background-color: #FFFFFF;
+}
+pre.ilife_05 .MetaSourceEmbedded {
+   color: #C8415C;
+}
+pre.ilife_05 .LibraryFunction {
+}
+pre.ilife_05 .SupportFunction {
+   background-color: #FAE6EB;
+   color: #D42755;
+}
+pre.ilife_05 .Keyword {
+   font-weight: bold;
+   background-color: #FEF8F9;
+   color: #000000;
+}
+pre.ilife_05 .TagAttribute {
+}
+pre.ilife_05 .Text {
+   background-color: #F4F3F4;
+   color: #333333;
+}
+pre.ilife_05 .TextPlain {
+   background-color: #FFFFFF;
+}
+pre.ilife_05 .MetaSourceEmbeddedBound {
+   background-color: #E6FAFF;
+   color: #308095;
+}
+pre.ilife_05 .Invalid {
+}
+pre.ilife_05 .LibraryClassType {
+}
+pre.ilife_05 .HtmlTags {
+   background-color: #C5E3EA;
+   color: #39A0BA;
+}
+pre.ilife_05 .FunctionName {
+   font-weight: bold;
+   background-color: #69B200;
+   color: #FFFFFF;
+}
+pre.ilife_05 .Comment {
+   background-color: #E2E2E2;
+   color: #B35EED;
+   font-style: italic;
+}
+pre.ilife_05 .SourceRubyEmbeddedSource {
+   background-color: #ECEBEC;
+   color: #000000;
+}
+pre.ilife_05 .MetaSourceEmbeddedSource {
+   background-color: #FFFFFF;
+   color: #666666;
+}

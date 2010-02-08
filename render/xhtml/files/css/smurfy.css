@@ -1,0 +1,25 @@
+pre.smurfy .String {
+   font-weight: bold;
+   color: #FF0000;
+}
+pre.smurfy .line-numbers {
+   background-color: #BBD5FC;
+   color: #000000;
+}
+pre.smurfy .Illegal {
+   background-color: #FF0000;
+   color: #000000;
+}
+pre.smurfy {
+   background-color: #19218B;
+   color: #FFFFFF;
+}
+pre.smurfy .Keyword {
+   color: #FF6FCF;
+}
+pre.smurfy .FunctionName {
+   color: #00FF00;
+}
+pre.smurfy .Comment {
+   color: #FFFF66;
+}

@@ -1,0 +1,62 @@
+pre.barf .LibraryVariable {
+}
+pre.barf .UserDefinedConstant {
+   color: #53667D;
+}
+pre.barf .String {
+   color: #5C81B3;
+}
+pre.barf .line-numbers {
+   background-color: #90B2D5;
+   color: #000000;
+}
+pre.barf .InheritedClass {
+}
+pre.barf .Variable {
+   color: #708E67;
+}
+pre.barf .Storage {
+   font-weight: bold;
+   color: #A3D295;
+}
+pre.barf .TagName {
+   color: #A3D295;
+}
+pre.barf .ClassName {
+}
+pre.barf .Number {
+   color: #C1E1B8;
+}
+pre.barf .BuiltInConstant {
+   color: #53667D;
+}
+pre.barf .LibraryConstant {
+}
+pre.barf .LibraryFunction {
+   font-weight: bold;
+   color: #BACCE1;
+}
+pre.barf .TagAttribute {
+   color: #708E67;
+}
+pre.barf .Keyword {
+   font-weight: bold;
+   color: #697A8E;
+}
+pre.barf .Invalid {
+   background-color: #CCCDCE;
+   color: #FF0000;
+}
+pre.barf .LibraryClassType {
+}
+pre.barf .FunctionName {
+   background-color: #282E36;
+}
+pre.barf .Comment {
+   color: #6E6E6E;
+   font-style: italic;
+}
+pre.barf {
+   background-color: #15191E;
+   color: #EEF2F7;
+}

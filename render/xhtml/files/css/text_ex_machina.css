@@ -1,0 +1,79 @@
+pre.text_ex_machina .LibraryVariable {
+   color: #FFFFFF;
+}
+pre.text_ex_machina .UserDefinedConstant {
+   color: #AE81FF;
+}
+pre.text_ex_machina .String {
+   color: #66CCFF;
+}
+pre.text_ex_machina .line-numbers {
+   background-color: #666666;
+   color: #FFFFFF;
+}
+pre.text_ex_machina .InheritedClass {
+   color: #CCCDFD;
+   font-style: italic;
+}
+pre.text_ex_machina .Variable {
+   color: #FFFFFF;
+}
+pre.text_ex_machina .Storage {
+   color: #323464;
+}
+pre.text_ex_machina .TagName {
+   color: #323464;
+}
+pre.text_ex_machina .ClassName {
+   text-decoration: underline;
+   color: #CCCDFD;
+}
+pre.text_ex_machina .Number {
+   color: #AE81FF;
+}
+pre.text_ex_machina .FunctionArgument {
+   color: #D9F2A6;
+   font-style: italic;
+}
+pre.text_ex_machina .StorageType {
+   color: #656797;
+}
+pre.text_ex_machina .BuiltInConstant {
+   color: #AE81FF;
+}
+pre.text_ex_machina .LibraryConstant {
+   color: #FFFFFF;
+}
+pre.text_ex_machina .LibraryFunction {
+   color: #B3F273;
+}
+pre.text_ex_machina .TagAttribute {
+   color: #777CB2;
+}
+pre.text_ex_machina .Keyword {
+   color: #777CB2;
+}
+pre.text_ex_machina {
+   background-color: #151515;
+   color: #E6E6E6;
+}
+pre.text_ex_machina .Invalid {
+   background-color: #0000FF;
+   color: #F8F8F0;
+   font-style: italic;
+}
+pre.text_ex_machina .LibraryClassType {
+   color: #3FE200;
+   font-style: italic;
+}
+pre.text_ex_machina .InvalidDeprecated {
+   background-color: #0080FF;
+   color: #F8F8F0;
+   font-style: italic;
+}
+pre.text_ex_machina .FunctionName {
+   color: #CCFF66;
+}
+pre.text_ex_machina .Comment {
+   color: #333333;
+}

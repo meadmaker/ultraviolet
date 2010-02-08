@@ -1,0 +1,51 @@
+pre.tek .LibraryVariable {
+}
+pre.tek .UserDefinedConstant {
+}
+pre.tek .String {
+   color: #FFFCCF;
+}
+pre.tek .line-numbers {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.tek .InheritedClass {
+}
+pre.tek .Variable {
+}
+pre.tek .Storage {
+}
+pre.tek .TagName {
+}
+pre.tek .ClassName {
+}
+pre.tek .Number {
+   color: #F0F8FF;
+}
+pre.tek .FunctionArgument {
+}
+pre.tek .BuiltInConstant {
+}
+pre.tek .LibraryConstant {
+}
+pre.tek .LibraryFunction {
+}
+pre.tek .TagAttribute {
+}
+pre.tek .Keyword {
+   font-weight: bold;
+}
+pre.tek {
+   background-color: #2F4F4F;
+   color: #DBFEF8;
+}
+pre.tek .Invalid {
+}
+pre.tek .LibraryClassType {
+}
+pre.tek .FunctionName {
+}
+pre.tek .Comment {
+   color: #E6E8FA;
+   font-style: italic;
+}

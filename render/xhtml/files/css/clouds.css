@@ -1,0 +1,84 @@
+pre.clouds .LibraryVariable {
+}
+pre.clouds .CssSelector {
+   color: #C52727;
+}
+pre.clouds .UserDefinedConstant {
+}
+pre.clouds .String {
+   color: #5D90CD;
+}
+pre.clouds .line-numbers {
+   background-color: #BDD5FC;
+   color: #000000;
+}
+pre.clouds .InheritedClass {
+   color: #858585;
+}
+pre.clouds .Variable {
+}
+pre.clouds .JsSupportClass {
+   color: #BF78CC;
+}
+pre.clouds .Storage {
+   color: #C52727;
+}
+pre.clouds .KeywordOperator {
+   color: #484848;
+}
+pre.clouds .KeywordUnit {
+   color: #96DC5F;
+}
+pre.clouds .PunctuationTags {
+   color: #606060;
+}
+pre.clouds .CssProperty {
+   color: #484848;
+}
+pre.clouds .TagName {
+   color: #606060;
+}
+pre.clouds .ClassName {
+}
+pre.clouds .Number {
+   color: #46A609;
+}
+pre.clouds .PunctuationWidgets {
+   color: #C52727;
+}
+pre.clouds .FunctionArgument {
+}
+pre.clouds .BuiltInConstant {
+   color: #39946A;
+}
+pre.clouds .LibraryConstant {
+}
+pre.clouds .HtmlEntity {
+   color: #BF78CC;
+}
+pre.clouds .LibraryFunction {
+   color: #C52727;
+}
+pre.clouds .TagAttribute {
+   color: #606060;
+}
+pre.clouds .Keyword {
+   color: #AF956F;
+}
+pre.clouds .Invalid {
+   background-color: #FF002A;
+}
+pre.clouds .LibraryClassType {
+}
+pre.clouds {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.clouds .KeywordCss {
+   color: #BF78CC;
+}
+pre.clouds .FunctionName {
+}
+pre.clouds .Comment {
+   color: #BCC8BA;
+}

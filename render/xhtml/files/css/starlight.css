@@ -1,0 +1,26 @@
+pre.starlight .String {
+   color: #B9A185;
+}
+pre.starlight .line-numbers {
+   background-color: #50729C;
+   color: #000000;
+}
+pre.starlight .Variable {
+   color: #A19A83;
+}
+pre.starlight .Number {
+   color: #B9A185;
+}
+pre.starlight {
+   background-color: #223859;
+   color: #C0B6A8;
+}
+pre.starlight .Keyword {
+   color: #A38474;
+}
+pre.starlight .Invalid {
+   color: #F3D651;
+}
+pre.starlight .Comment {
+   color: #AEAEAE;
+}

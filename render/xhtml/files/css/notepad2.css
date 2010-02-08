@@ -1,0 +1,60 @@
+pre.notepad2 .LibraryVariable {
+}
+pre.notepad2 .UserDefinedConstant {
+}
+pre.notepad2 .String {
+   color: #008000;
+}
+pre.notepad2 .line-numbers {
+   background-color: #98CCFF;
+   color: #000000;
+}
+pre.notepad2 .InheritedClass {
+}
+pre.notepad2 .Variable {
+   color: #000080;
+   font-style: italic;
+}
+pre.notepad2 .Storage {
+   color: #800080;
+}
+pre.notepad2 .TagName {
+   color: #0000AF;
+}
+pre.notepad2 .ClassName {
+}
+pre.notepad2 .Number {
+   color: #FF0000;
+}
+pre.notepad2 .FunctionArgument {
+}
+pre.notepad2 .BuiltInConstant {
+   font-weight: bold;
+}
+pre.notepad2 .LibraryConstant {
+}
+pre.notepad2 .LibraryFunction {
+   color: #800080;
+}
+pre.notepad2 .TagAttribute {
+   color: #CE0000;
+}
+pre.notepad2 .Keyword {
+   color: #800080;
+}
+pre.notepad2 {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.notepad2 .Invalid {
+   font-weight: bold;
+}
+pre.notepad2 .LibraryClassType {
+}
+pre.notepad2 .FunctionName {
+   color: #000000;
+}
+pre.notepad2 .Comment {
+   background-color: #FFFFFF;
+   color: #FF8000;
+}

@@ -1,0 +1,119 @@
+pre.django_smoothy .CssPropertyValue {
+   color: #FFE862;
+   font-style: italic;
+}
+pre.django_smoothy .String {
+   color: #E1FFB8;
+   font-style: italic;
+}
+pre.django_smoothy .ImportLine {
+   color: #FFB454;
+}
+pre.django_smoothy .Constant {
+   font-weight: bold;
+   color: #9CF340;
+}
+pre.django_smoothy .line-numbers {
+   background-color: #336442;
+   color: #FFFFFF;
+}
+pre.django_smoothy .EmbeddedSource {
+   background-color: #A5ABAF;
+}
+pre.django_smoothy .Variable {
+   font-weight: bold;
+   color: #FB9A4B;
+}
+pre.django_smoothy .Support {
+   color: #9DF39F;
+}
+pre.django_smoothy .DiffInserted {
+   background-color: #9BF199;
+   color: #41A83E;
+}
+pre.django_smoothy .DiffHeader {
+   background-color: #0B2F20;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.django_smoothy .CssConstructorArgument {
+   color: #EC9799;
+}
+pre.django_smoothy .Storage {
+   font-weight: bold;
+   color: #FFE862;
+}
+pre.django_smoothy .DiffChanged {
+   background-color: #C4B14A;
+   color: #F8F8F8;
+}
+pre.django_smoothy .StringConstant {
+   color: #FFE862;
+}
+pre.django_smoothy .CssAtRule {
+   color: #FD6209;
+}
+pre.django_smoothy .CssClass {
+   color: #41A83E;
+}
+pre.django_smoothy .SupportConstant {
+   color: #EB939A;
+}
+pre.django_smoothy .MetaTagA {
+   color: #E8E8E7;
+}
+pre.django_smoothy .StringEmbeddedSource {
+   color: #9DF39F;
+}
+pre.django_smoothy .CssTagName {
+   background-color: #245032;
+   color: #AA5507;
+}
+pre.django_smoothy .SupportFunction {
+   color: #FFE862;
+}
+pre.django_smoothy .Keyword {
+   color: #96DD3B;
+}
+pre.django_smoothy .DiffDeleted {
+   background-color: #FEDCDD;
+   color: #EC9799;
+}
+pre.django_smoothy .CssAdditionalConstants {
+   color: #FFE862;
+}
+pre.django_smoothy .DoctypeXmlProcessing {
+   color: #989898;
+}
+pre.django_smoothy .StringRegexp {
+   color: #FFB454;
+}
+pre.django_smoothy .EntityInheritedClass {
+   color: #FFE862;
+   font-style: italic;
+}
+pre.django_smoothy .EmbeddedSourceBright {
+   background-color: #9EA6A8;
+}
+pre.django_smoothy .CssId {
+   color: #FEC758;
+}
+pre.django_smoothy .StringVariable {
+   color: #EDEF7D;
+}
+pre.django_smoothy .Invalid {
+   background-color: #94DA3A;
+}
+pre.django_smoothy {
+   background-color: #245032;
+   color: #F8F8F8;
+}
+pre.django_smoothy .CssPropertyName {
+   color: #96DD3B;
+}
+pre.django_smoothy .Entity {
+   color: #FEC758;
+}
+pre.django_smoothy .Comment {
+   color: #FD6209;
+}

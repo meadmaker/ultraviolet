@@ -1,0 +1,140 @@
+--- 
+name: monoindustrial
+line: 
+  begin: ""
+  end: ""
+filter: CGI.escapeHTML( @escaped )
+document: 
+  begin: |
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="expires" content="3600" />
+      <meta name="revisit-after" content="2 days" />
+      <meta name="robots" content="index,follow" />
+      <meta name="publisher" content="Dichodaemon" />
+      <meta name="copyright" content="Dichodaemon" />
+    
+      <meta name="author" content="Dichodaemon" />
+      <meta name="distribution" content="global" />
+      <meta name="description" content="Ocatarinetabellachithchix" />
+      <meta name="keywords" content="arzaversperia flexilimosos toves" />
+      <link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/monoindustrial.css" />
+      <title>monoindustrial</title>
+    
+    </head>
+    
+    <body>
+
+  end: "  <p>\n    <a href=\"http://validator.w3.org/check?uri=referer\">\n      <img style=\"border:0\"\n           src=\"http://www.w3.org/Icons/valid-xhtml10\"\n           alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\" />\n    </a>\n    <a href=\"http://jigsaw.w3.org/css-validator/check?uri=referer\">\n      <img style=\"border:0;width:88px;height:31px\"\n           src=\"http://jigsaw.w3.org/css-validator/images/vcss\" \n           alt=\"Valid CSS!\" />\n    </a>\n  </p>\n\
+    </body>\n\
+    </html>\n"
+tags: 
+- begin: <span class="Comment">
+  end: </span>
+  selector: comment
+- begin: <span class="Type">
+  end: </span>
+  selector: storage, support.type
+- begin: <span class="EmbeddedCode">
+  end: </span>
+  selector: string.unquoted.embedded, text source, string.unquoted
+- begin: <span class="StringInterpolation">
+  end: </span>
+  selector: constant.character.escaped, string source - string.unquoted.embedded, string string source
+- begin: <span class="String">
+  end: </span>
+  selector: string - string source, string source string, meta.scope.heredoc
+- begin: <span class="Number">
+  end: </span>
+  selector: constant.numeric
+- begin: <span class="Variable">
+  end: </span>
+  selector: variable.language, variable.other
+- begin: <span class="Constant">
+  end: </span>
+  selector: constant
+- begin: <span class="PreprocessorLine">
+  end: </span>
+  selector: other.preprocessor
+- begin: <span class="PreprocessorDirective">
+  end: </span>
+  selector: entity.name.preprocessor
+- begin: <span class="FunctionName">
+  end: </span>
+  selector: entity.name.function, keyword.operator, keyword.other.name-of-parameter
+- begin: <span class="ClassName">
+  end: </span>
+  selector: entity.name.class
+- begin: <span class="FunctionParameter">
+  end: </span>
+  selector: variable.parameter
+- begin: <span class="FunctionArgumentAndResultTypes">
+  end: </span>
+  selector: storage.type.method
+- begin: <span class="Keyword">
+  end: </span>
+  selector: keyword, storage.type.function.php
+- begin: <span class="Invalid">
+  end: </span>
+  selector: invalid
+- begin: <span class="InvalidTrailingWhitespace">
+  end: </span>
+  selector: invalid.trailing-whitespace
+- begin: <span class="LibraryFunction">
+  end: </span>
+  selector: support.function
+- begin: <span class="LibraryObject">
+  end: </span>
+  selector: support.class, support.type, entity.name
+- begin: <span class="LibraryConstant">
+  end: </span>
+  selector: support.constant
+- begin: <span class="LibraryVariable">
+  end: </span>
+  selector: support.other.variable
+- begin: <span class="MarkupXmlDeclaration">
+  end: </span>
+  selector: declaration.xml-processing
+- begin: <span class="MarkupDoctype">
+  end: </span>
+  selector: declaration.doctype
+- begin: <span class="MarkupDtd">
+  end: </span>
+  selector: declaration.doctype.DTD
+- begin: <span class="MarkupTag">
+  end: </span>
+  selector: declaration.tag
+- begin: <span class="MarkupNameOfTag">
+  end: </span>
+  selector: entity.name.tag
+- begin: <span class="MarkupTagAttribute">
+  end: </span>
+  selector: entity.other.attribute-name
+- begin: <span class="Punctuation">
+  end: </span>
+  selector: punctuation
+- begin: <span class="InheritedClassName">
+  end: </span>
+  selector: entity.other.inherited-class
+- begin: <span class="ChangedFilesSubversion">
+  end: </span>
+  selector: meta.scope.changed-files.svn, markup.inserted.svn, markup.changed.svn, markup.deleted.svn
+- begin: <span class="BlocksExpressions1">
+  end: </span>
+  selector: meta.section
+- begin: <span class="BlocksExpressions2">
+  end: </span>
+  selector: meta.section meta.section
+- begin: <span class="BlocksExpressions3">
+  end: </span>
+  selector: meta.section meta.section meta.section
+listing: 
+  begin: <pre class="monoindustrial">
+  end: </pre>
+line-numbers: 
+  begin: <span class="line-numbers">
+  end: </span>

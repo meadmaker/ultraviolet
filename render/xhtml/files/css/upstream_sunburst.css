@@ -1,0 +1,189 @@
+pre.upstream_sunburst .MarkupComment {
+   color: #F67B37;
+   font-style: italic;
+}
+pre.upstream_sunburst .CssPropertyValue {
+   color: #B2D72C;
+}
+pre.upstream_sunburst .String {
+   color: #B2D72C;
+}
+pre.upstream_sunburst .Constant {
+   color: #259ADB;
+}
+pre.upstream_sunburst .line-numbers {
+   background-color: #668CDB;
+   color: #000000;
+}
+pre.upstream_sunburst .MetaTagEntity {
+   color: #259ADB;
+}
+pre.upstream_sunburst .Variable {
+   color: #259ADB;
+}
+pre.upstream_sunburst .Support {
+   color: #9B859D;
+}
+pre.upstream_sunburst .MarkupList {
+   color: #E1D4B9;
+}
+pre.upstream_sunburst .DiffInserted {
+   background-color: #253B22;
+   color: #F8F8F8;
+}
+pre.upstream_sunburst .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.upstream_sunburst .CssConstructorArgument {
+   color: #8F9D6A;
+}
+pre.upstream_sunburst .CCCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.upstream_sunburst .Storage {
+   color: #89725B;
+}
+pre.upstream_sunburst .KeywordOperator {
+   color: #FFFFFF;
+}
+pre.upstream_sunburst .LogEntryError {
+   background-color: #751012;
+}
+pre.upstream_sunburst .DiffChanged {
+   background-color: #4A410D;
+   color: #F8F8F8;
+}
+pre.upstream_sunburst .StringConstant {
+   color: #DDF2A4;
+}
+pre.upstream_sunburst .Number {
+   color: #B2D72C;
+}
+pre.upstream_sunburst .MarkupSeparator {
+   background-color: #242424;
+   color: #60A633;
+}
+pre.upstream_sunburst .MarkupUnderline {
+   text-decoration: underline;
+   color: #E18964;
+}
+pre.upstream_sunburst .CssAtRule {
+   color: #8693A5;
+}
+pre.upstream_sunburst .InvalidIllegal {
+   background-color: #4B274B;
+   color: #FD5FF1;
+}
+pre.upstream_sunburst .KeywordControl {
+   color: #89725B;
+}
+pre.upstream_sunburst {
+   background-color: #000000;
+   color: #F8F8F8;
+}
+pre.upstream_sunburst .MarkupHeading {
+   background-color: #632D04;
+   color: #FEDCC5;
+}
+pre.upstream_sunburst .CssClass {
+   color: #259ADB;
+}
+pre.upstream_sunburst .SupportConstant {
+   color: #CF6A4C;
+}
+pre.upstream_sunburst .MarkupQuote {
+   background-color: #64583D;
+   color: #E1D4B9;
+   font-style: italic;
+}
+pre.upstream_sunburst .MetaTagInline {
+   color: #259ADB;
+}
+pre.upstream_sunburst .JEntityNameType {
+   text-decoration: underline;
+}
+pre.upstream_sunburst .CCCPreprocessorLine {
+   color: #8996A8;
+}
+pre.upstream_sunburst .StringEmbeddedSource {
+   color: #DAEFA3;
+}
+pre.upstream_sunburst .CssPseudoClass {
+   color: #8F9D6A;
+}
+pre.upstream_sunburst .CssTagName {
+   color: #259ADB;
+}
+pre.upstream_sunburst .SupportFunction {
+   color: #DAD085;
+}
+pre.upstream_sunburst .Keyword {
+   color: #89725B;
+}
+pre.upstream_sunburst .LogEntry {
+   background-color: #8E8E8E;
+}
+pre.upstream_sunburst .DiffDeleted {
+   background-color: #420E09;
+   color: #F8F8F8;
+}
+pre.upstream_sunburst .CssAdditionalConstants {
+   color: #B2D72C;
+}
+pre.upstream_sunburst .MetaTagAll {
+   color: #259ADB;
+}
+pre.upstream_sunburst .DoctypeXmlProcessing {
+   color: #494949;
+}
+pre.upstream_sunburst .StringRegexpSpecial {
+   color: #CF7D34;
+}
+pre.upstream_sunburst .StringRegexp {
+   color: #E9C062;
+}
+pre.upstream_sunburst .EntityInheritedClass {
+   color: #9B5C2E;
+   font-style: italic;
+}
+pre.upstream_sunburst .EmbeddedSourceBright {
+   background-color: #272829;
+}
+pre.upstream_sunburst .MarkupRaw {
+   background-color: #272829;
+   color: #578BB3;
+}
+pre.upstream_sunburst .MarkupBold {
+   font-weight: bold;
+   color: #E9C062;
+}
+pre.upstream_sunburst .CssId {
+   color: #259ADB;
+}
+pre.upstream_sunburst .JCast {
+   color: #676767;
+   font-style: italic;
+}
+pre.upstream_sunburst .StringVariable {
+   color: #8A9A95;
+}
+pre.upstream_sunburst .MarkupItalic {
+   color: #E9C062;
+   font-style: italic;
+}
+pre.upstream_sunburst .CssPropertyName {
+   color: #E1F5B1;
+}
+pre.upstream_sunburst .Namespaces {
+   color: #E18964;
+}
+pre.upstream_sunburst .InvalidDeprecated {
+   color: #FD5FF1;
+   font-style: italic;
+}
+pre.upstream_sunburst .Comment {
+   color: #3D3D3D;
+   font-style: italic;
+}

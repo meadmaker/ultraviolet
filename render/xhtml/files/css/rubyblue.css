@@ -1,0 +1,101 @@
+pre.rubyblue .HamlTag {
+   color: #65798C;
+}
+pre.rubyblue .ClassInheritance {
+   font-style: italic;
+}
+pre.rubyblue .String {
+   color: #1DC116;
+}
+pre.rubyblue .Constant {
+   color: #8AA6C1;
+}
+pre.rubyblue .line-numbers {
+   background-color: #38566F;
+   color: #FFFFFF;
+}
+pre.rubyblue {
+   background-color: #121E31;
+   color: #FFFFFF;
+}
+pre.rubyblue .DiffInserted {
+   background-color: #6DB04E;
+   color: #FFFFFF;
+}
+pre.rubyblue .DiffHeader {
+   background-color: #344668;
+   color: #FFFFFF;
+}
+pre.rubyblue .StringEscapesExecuted {
+   color: #468434;
+}
+pre.rubyblue .Symbols {
+   color: #B53B3C;
+}
+pre.rubyblue .BlockComment {
+   background-color: #121F32;
+   color: #438AD7;
+}
+pre.rubyblue .DiffChanged {
+   background-color: #968C44;
+   color: #FFFFFF;
+}
+pre.rubyblue .TagName {
+}
+pre.rubyblue .ClassName {
+}
+pre.rubyblue .Operators {
+   color: #8AA6C1;
+}
+pre.rubyblue .StringExecuted {
+   background-color: #CACACA;
+   color: #080808;
+}
+pre.rubyblue .TextBase {
+   background-color: #111D2F;
+   color: #8AA6C1;
+}
+pre.rubyblue .FunctionArgument {
+   color: #8AA6C1;
+   font-style: italic;
+}
+pre.rubyblue .PreProcessorLine {
+   background-color: #0C151E;
+   color: #B6B9F9;
+}
+pre.rubyblue .SupportFunction {
+   color: #B43D3D;
+}
+pre.rubyblue .TagAttribute {
+}
+pre.rubyblue .StringLiteral {
+   color: #E2CE00;
+}
+pre.rubyblue .PreProcessorDirective {
+}
+pre.rubyblue .Keyword {
+   color: #F8BB00;
+}
+pre.rubyblue .DiffDeleted {
+   background-color: #7A3942;
+   color: #FFFFFF;
+}
+pre.rubyblue .Numbers {
+   color: #EDDD3D;
+}
+pre.rubyblue .SourceBase {
+   background-color: #132032;
+   color: #FFFFFF;
+}
+pre.rubyblue .RegularExpression {
+   color: #CA4344;
+}
+pre.rubyblue .StringEscapes {
+   color: #EDDD37;
+}
+pre.rubyblue .FunctionName {
+}
+pre.rubyblue .Comment {
+   color: #428BDD;
+   font-style: italic;
+}

@@ -1,0 +1,128 @@
+pre.upstream_vibrant .LibraryVariable {
+   color: #9CFFFF;
+}
+pre.upstream_vibrant .String {
+   color: #B2D72C;
+}
+pre.upstream_vibrant .UserDefinedConstant {
+   color: #9CFFFF;
+}
+pre.upstream_vibrant .line-numbers {
+   background-color: #B33F43;
+   color: #000000;
+}
+pre.upstream_vibrant .EmbeddedSource {
+   background-color: #000000;
+}
+pre.upstream_vibrant .LibraryObject {
+   color: #FFF7B0;
+}
+pre.upstream_vibrant .Section {
+   color: #E2F6FF;
+   font-style: italic;
+}
+pre.upstream_vibrant .Variable {
+   color: #9CFFFF;
+}
+pre.upstream_vibrant .MarkupList {
+   color: #B90690;
+}
+pre.upstream_vibrant .MarkupTagAttribute {
+   color: #E1F5B1;
+}
+pre.upstream_vibrant .Thing {
+   color: #E1F5B1;
+}
+pre.upstream_vibrant {
+   background-color: #000000;
+   color: #E2F6FF;
+}
+pre.upstream_vibrant .FunctionParameter {
+   font-style: italic;
+}
+pre.upstream_vibrant .This {
+   color: #FF6C60;
+}
+pre.upstream_vibrant .Number {
+   color: #FF73FD;
+}
+pre.upstream_vibrant .ControlKeyword {
+   color: #2499DA;
+}
+pre.upstream_vibrant .MarkupHeading {
+   color: #4266A0;
+}
+pre.upstream_vibrant .InheritedClassName {
+   font-style: italic;
+}
+pre.upstream_vibrant .StringInterpolation {
+   color: #E2F6F2;
+}
+pre.upstream_vibrant .BuiltInConstant {
+   color: #FF6C60;
+}
+pre.upstream_vibrant .MarkupQuote {
+   color: #89725B;
+   font-style: italic;
+}
+pre.upstream_vibrant .MarkupNameOfTag {
+   color: #2499DA;
+}
+pre.upstream_vibrant .MarkupTag {
+   color: #2499DA;
+}
+pre.upstream_vibrant .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+   color: #0A0B0C;
+}
+pre.upstream_vibrant .LibraryConstant {
+   color: #B2D72C;
+}
+pre.upstream_vibrant .ClassThing {
+   color: #EEEEEE;
+}
+pre.upstream_vibrant .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.upstream_vibrant .JsOperator {
+   color: #687687;
+}
+pre.upstream_vibrant .LibraryFunction {
+   color: #E1F5B1;
+}
+pre.upstream_vibrant .Keyword {
+   font-weight: bold;
+   color: #2499DA;
+}
+pre.upstream_vibrant .PreprocessorLine {
+   color: #B2D72C;
+}
+pre.upstream_vibrant .EmbeddedEmbeddedSource {
+   background-color: #000000;
+}
+pre.upstream_vibrant .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.upstream_vibrant .PreprocessorDirective {
+   color: #B2D72C;
+}
+pre.upstream_vibrant .MarkupDtd {
+   font-style: italic;
+}
+pre.upstream_vibrant .MarkupDoctype {
+   color: #888888;
+}
+pre.upstream_vibrant .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.upstream_vibrant .TypeName {
+   text-decoration: underline;
+}
+pre.upstream_vibrant .FunctionName {
+   color: #EEEEEE;
+}
+pre.upstream_vibrant .Comment {
+   font-weight: bold;
+   color: #4E4E4E;
+}

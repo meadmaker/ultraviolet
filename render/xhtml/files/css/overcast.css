@@ -1,0 +1,182 @@
+pre.overcast .MarkupComment {
+   color: #F67B37;
+   font-style: italic;
+}
+pre.overcast .CssPropertyValue {
+   color: #F9EE98;
+}
+pre.overcast .String {
+   color: #90FF5E;
+}
+pre.overcast .Constant {
+   color: #A0CBE1;
+}
+pre.overcast .line-numbers {
+   background-color: #DDF0FF;
+   color: #000000;
+}
+pre.overcast .Variable {
+   color: #C8CFA6;
+}
+pre.overcast .Support {
+   color: #00FFBC;
+}
+pre.overcast {
+   background-color: #808080;
+   color: #000000;
+}
+pre.overcast .MarkupList {
+   color: #E1D4B9;
+}
+pre.overcast .MarkupQuoteLevelThree {
+   color: #D2A9A3;
+   font-style: italic;
+}
+pre.overcast .DiffInserted {
+   background-color: #253B22;
+   color: #F8F8F8;
+}
+pre.overcast .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.overcast .CssConstructorArgument {
+   color: #4B595B;
+}
+pre.overcast .CCCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.overcast .Storage {
+   color: #D3E8D1;
+}
+pre.overcast .LogEntryError {
+   background-color: #751012;
+}
+pre.overcast .MarkupQuoteLevelTwo {
+   color: #B2C5B7;
+   font-style: italic;
+}
+pre.overcast .DiffChanged {
+   background-color: #4A410D;
+   color: #F8F8F8;
+}
+pre.overcast .StringConstant {
+   color: #D972DE;
+}
+pre.overcast .MarkupSeparator {
+   background-color: #E1D4B9;
+   color: #0079AA;
+}
+pre.overcast .MarkupUnderline {
+   text-decoration: underline;
+   color: #3F4B46;
+}
+pre.overcast .CssAtRule {
+   color: #B6C3BF;
+}
+pre.overcast .InvalidIllegal {
+   background-color: #756A75;
+   color: #FD5FF1;
+}
+pre.overcast .MarkupHeading {
+   background-color: #45666E;
+   color: #FEDCC5;
+}
+pre.overcast .CssClass {
+   color: #C38699;
+}
+pre.overcast .SupportConstant {
+   color: #EDEDA3;
+}
+pre.overcast .MetaTagInline {
+   color: #E0CC85;
+}
+pre.overcast .CCCPreprocessorLine {
+   color: #CAD2C6;
+}
+pre.overcast .StringEmbeddedSource {
+   color: #D972DE;
+}
+pre.overcast .CssPseudoClass {
+   color: #BBBD3A;
+}
+pre.overcast .CssTagName {
+   color: #FFFFFF;
+}
+pre.overcast .SupportFunction {
+   color: #F1C3E6;
+}
+pre.overcast .Keyword {
+   color: #EEAB8A;
+}
+pre.overcast .LogEntry {
+   background-color: #DCDCDC;
+   color: #000000;
+}
+pre.overcast .MarkupQuoteLevelOne {
+   background-color: #F5D99A;
+   color: #E1D4B9;
+   font-style: italic;
+}
+pre.overcast .DiffDeleted {
+   background-color: #420E09;
+   color: #F8F8F8;
+}
+pre.overcast .CssAdditionalConstants {
+   color: #A9B7A5;
+}
+pre.overcast .MetaTagAll {
+   color: #89BDFF;
+}
+pre.overcast .DoctypeXmlProcessing {
+   color: #494949;
+}
+pre.overcast .StringRegexpSpecial {
+   color: #CF7D34;
+}
+pre.overcast .StringRegexp {
+   color: #E9C062;
+}
+pre.overcast .EntityInheritedClass {
+   color: #FF9749;
+   font-style: italic;
+}
+pre.overcast .EmbeddedSourceBright {
+   background-color: #AFB1B8;
+}
+pre.overcast .MarkupRaw {
+   background-color: #E1D4B9;
+   color: #0079AA;
+}
+pre.overcast .MarkupBold {
+   font-weight: bold;
+   color: #3F4B46;
+}
+pre.overcast .CssId {
+   color: #A3CADC;
+}
+pre.overcast .StringVariable {
+   color: #3E4B4D;
+}
+pre.overcast .MarkupItalic {
+   color: #3F4B46;
+   font-style: italic;
+}
+pre.overcast .CssPropertyName {
+   color: #CAD885;
+}
+pre.overcast .Namespaces {
+   color: #F4C879;
+}
+pre.overcast .InvalidDeprecated {
+   color: #FD5FF1;
+   font-style: italic;
+}
+pre.overcast .Entity {
+   color: #83CBED;
+}
+pre.overcast .Comment {
+   color: #7D4081;
+   font-style: italic;
+}

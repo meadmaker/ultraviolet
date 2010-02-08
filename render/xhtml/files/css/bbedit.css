@@ -1,0 +1,102 @@
+pre.bbedit .LibraryVariable {
+   color: #21439C;
+}
+pre.bbedit .UserDefinedConstant {
+   color: #C5060B;
+}
+pre.bbedit .String {
+   color: #FF0080;
+}
+pre.bbedit .line-numbers {
+   background-color: #C3DCFF;
+   color: #000000;
+}
+pre.bbedit .EmbeddedSource {
+   background-color: #558CF6;
+}
+pre.bbedit .LibraryObject {
+   color: #6D79DE;
+}
+pre.bbedit .Section {
+}
+pre.bbedit .Variable {
+   color: #006600;
+}
+pre.bbedit {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.bbedit .MarkupList {
+   color: #B90690;
+}
+pre.bbedit .MarkupTagAttribute {
+}
+pre.bbedit .FunctionParameter {
+}
+pre.bbedit .ClassName {
+   text-decoration: underline;
+}
+pre.bbedit .Number {
+   color: #FF0080;
+}
+pre.bbedit .MarkupHeading {
+   color: #0C07FF;
+}
+pre.bbedit .InheritedClassName {
+}
+pre.bbedit .StringInterpolation {
+   color: #33CC33;
+}
+pre.bbedit .BuiltInConstant {
+   color: #004080;
+}
+pre.bbedit .MarkupQuote {
+   color: #000000;
+}
+pre.bbedit .MarkupNameOfTag {
+}
+pre.bbedit .MarkupTag {
+   color: #1C02FF;
+}
+pre.bbedit .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+pre.bbedit .LibraryConstant {
+   color: #06960E;
+}
+pre.bbedit .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.bbedit .JsOperator {
+   color: #687687;
+}
+pre.bbedit .LibraryFunction {
+   color: #0000FF;
+}
+pre.bbedit .Keyword {
+   color: #0000FF;
+}
+pre.bbedit .PreprocessorLine {
+   color: #1A921C;
+}
+pre.bbedit .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.bbedit .PreprocessorDirective {
+   color: #0C450D;
+}
+pre.bbedit .MarkupDtd {
+}
+pre.bbedit .MarkupDoctype {
+   color: #888888;
+}
+pre.bbedit .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.bbedit .FunctionName {
+   color: #0000A2;
+}
+pre.bbedit .Comment {
+   color: #804000;
+}

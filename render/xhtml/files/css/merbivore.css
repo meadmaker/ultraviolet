@@ -1,0 +1,72 @@
+pre.merbivore .String {
+   color: #8DFF0A;
+}
+pre.merbivore .Constant {
+   color: #1EDAFB;
+}
+pre.merbivore .Source {
+}
+pre.merbivore .line-numbers {
+   background-color: #5A647E;
+   color: #FFFFFF;
+}
+pre.merbivore .Variable {
+}
+pre.merbivore .DiffHeader {
+   background-color: #2F33AB;
+}
+pre.merbivore .MarkupTagAttribute {
+   color: #FFFF89;
+}
+pre.merbivore .DiffRemove {
+   background-color: #660000;
+   color: #E6E1DC;
+}
+pre.merbivore .DiffAdd {
+   background-color: #144212;
+   color: #E6E1DC;
+}
+pre.merbivore .Number {
+   color: #58C554;
+}
+pre.merbivore {
+   background-color: #161616;
+   color: #E6E1DC;
+}
+pre.merbivore .StringInterpolation {
+   color: #519F50;
+}
+pre.merbivore .FunctionDefinition {
+}
+pre.merbivore .MarkupTag {
+   color: #FC6F09;
+}
+pre.merbivore .LibraryConstant {
+   color: #8DFF0A;
+}
+pre.merbivore .ConstantOtherVariable {
+}
+pre.merbivore .LibraryFunction {
+}
+pre.merbivore .Keyword {
+   color: #FC6F09;
+}
+pre.merbivore .ConstantBuiltIn {
+   color: #FDC251;
+}
+pre.merbivore .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.merbivore .LibraryType {
+   color: #1EDAFB;
+}
+pre.merbivore .ClassDefinition {
+}
+pre.merbivore .ClassInheritence {
+   color: #FC83FF;
+}
+pre.merbivore .Comment {
+   color: #AD2EA4;
+   font-style: italic;
+}

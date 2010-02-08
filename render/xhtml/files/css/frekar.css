@@ -1,0 +1,139 @@
+pre.frekar .JavascriptEvents {
+   color: #FFFFFF;
+}
+pre.frekar .CssSelector {
+   color: #FF00FF;
+}
+pre.frekar .ClassInheritance {
+   color: #FF98FF;
+   font-style: italic;
+}
+pre.frekar .String {
+   color: #989898;
+}
+pre.frekar .SupportContant {
+   color: #FF00FF;
+}
+pre.frekar .Constant {
+   color: #9933CC;
+}
+pre.frekar .line-numbers {
+   background-color: #3D003D;
+   color: #FFFFFF;
+}
+pre.frekar .OtherKeywords {
+   color: #9933CC;
+}
+pre.frekar .Variable {
+   color: #FFFFFF;
+}
+pre.frekar .SpecialKeywords {
+   color: #FFF9F9;
+   font-style: italic;
+}
+pre.frekar .RubySource {
+   background-color: #000000;
+   font-style: italic;
+}
+pre.frekar .RubyHtml {
+   background-color: #0E0E0E;
+   color: #FFFFFF;
+}
+pre.frekar .InlineRubyHtml {
+   background-color: #161616;
+}
+pre.frekar .PrototypeObjects {
+   color: #FFFFFF;
+}
+pre.frekar .JavascriptOperators {
+   color: #FFFFFF;
+}
+pre.frekar .StringEscapesExecuted {
+   background-color: #3D003D;
+   color: #FF00DD;
+}
+pre.frekar .BlockComment {
+   background-color: #00112A;
+   color: #0066FF;
+}
+pre.frekar .CssProperty {
+   color: #FF98FF;
+}
+pre.frekar .TagName {
+   color: #FF00F9;
+}
+pre.frekar .ClassName {
+   color: #FF98FF;
+}
+pre.frekar .StringExecuted {
+   background-color: #989898;
+   color: #000000;
+}
+pre.frekar .TextBase {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.frekar {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.frekar .JavascriptKeywords {
+   color: #FF98FF;
+   font-style: italic;
+}
+pre.frekar .CssOther {
+   color: #FFFFFF;
+}
+pre.frekar .FunctionArgument {
+   color: #989898;
+   font-style: italic;
+}
+pre.frekar .PreProcessorLine {
+   color: #EDF8F9;
+}
+pre.frekar .RubyNumber {
+   color: #9A32A9;
+}
+pre.frekar .TagAttribute {
+   color: #FF98FF;
+   font-style: italic;
+}
+pre.frekar .StringLiteral {
+   color: #989898;
+}
+pre.frekar .ActiverecordFunction {
+   color: #999966;
+}
+pre.frekar .PreProcessorDirective {
+   color: #FFFFFF;
+}
+pre.frekar .Keyword {
+   background-color: #000000;
+   color: #FF00FF;
+}
+pre.frekar .Function {
+   color: #E72CF9;
+}
+pre.frekar .Objects {
+   color: #FFFFFF;
+   font-style: italic;
+}
+pre.frekar .PrototypeMethods {
+   color: #FF00FF;
+}
+pre.frekar .RegularExpression {
+   background-color: #3D003D;
+   color: #FF00DD;
+}
+pre.frekar .StringEscapes {
+   color: #AAAAAA;
+}
+pre.frekar .FunctionName {
+   background-color: #2B082A;
+   text-decoration: underline;
+   color: #FF00FF;
+}
+pre.frekar .Comment {
+   background-color: #000711;
+   color: #0066FF;
+}

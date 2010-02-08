@@ -1,0 +1,163 @@
+pre.smoothy .CssPropertyValue {
+   color: #8E9439;
+}
+pre.smoothy .CPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.smoothy .Array {
+   color: #C8CA67;
+}
+pre.smoothy .Constant1 {
+   color: #A59546;
+}
+pre.smoothy .EmbeddedRuby {
+   background-color: #9C9C9C;
+}
+pre.smoothy .EmbeddedPhp {
+   background-color: #FFFFFF;
+}
+pre.smoothy .String {
+   color: #704D3D;
+}
+pre.smoothy .Operator {
+   font-weight: bold;
+   color: #4EA44E;
+}
+pre.smoothy .Constant {
+   color: #E66C29;
+}
+pre.smoothy .line-numbers {
+   background-color: #FFFD00;
+   color: #000000;
+}
+pre.smoothy .EmbeddedSource1 {
+   color: #F5E76B;
+}
+pre.smoothy .InheritedClass {
+   font-weight: bold;
+   color: #9B5C2E;
+}
+pre.smoothy .EmbeddedSource {
+   background-color: #FFFFFF;
+}
+pre.smoothy .Variable {
+   font-weight: bold;
+   color: #77ACB0;
+}
+pre.smoothy .Support {
+   color: #2F8996;
+}
+pre.smoothy .DiffInserted {
+   font-weight: bold;
+   background-color: #121D0C;
+   color: #F8F8F8;
+}
+pre.smoothy .DiffHeader {
+   color: #5AA2A0;
+}
+pre.smoothy .CssConstants {
+   color: #C6C857;
+}
+pre.smoothy .Storage {
+   color: #925A47;
+}
+pre.smoothy .DiffChanged {
+   font-weight: bold;
+   background-color: #2B2309;
+   color: #F8F8F8;
+}
+pre.smoothy .TagName {
+   color: #BAA827;
+}
+pre.smoothy .Constant3 {
+   color: #959630;
+}
+pre.smoothy .Regexp {
+   color: #E3965E;
+}
+pre.smoothy .InvalidIllegal {
+   background-color: #5D5C5D;
+   text-decoration: underline;
+   color: #A2A2A2;
+}
+pre.smoothy .CPreprocessor {
+   color: #8996A8;
+}
+pre.smoothy {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.smoothy .MarkList {
+   color: #F9EB77;
+}
+pre.smoothy .CssConstructor {
+   color: #C1A25F;
+}
+pre.smoothy .CssClass {
+   color: #973C41;
+}
+pre.smoothy .Braces {
+   color: #D4A03C;
+}
+pre.smoothy .RegexpSpecial {
+   color: #C5A395;
+}
+pre.smoothy .MarkHead {
+   color: #CF6A4C;
+}
+pre.smoothy .CssTagName {
+   color: #E98662;
+}
+pre.smoothy .MetaTag {
+   color: #495573;
+}
+pre.smoothy .Keyword {
+   color: #D8B229;
+}
+pre.smoothy .DiffDeleted {
+   background-color: #2A0205;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.smoothy .Css {
+   color: #8693A5;
+}
+pre.smoothy .DoctypeXmlProcessing {
+   color: #494949;
+}
+pre.smoothy .Function {
+   font-weight: bold;
+   color: #55A2EA;
+}
+pre.smoothy .PhpSafeGlobal {
+   color: #4A7952;
+}
+pre.smoothy .CssId {
+   color: #AD683E;
+}
+pre.smoothy .TagAttributeName {
+   color: #B06520;
+}
+pre.smoothy .StringVariable {
+   color: #28409A;
+}
+pre.smoothy .InvalidDeprecated {
+   text-decoration: underline;
+   color: #D24346;
+}
+pre.smoothy .CssPropertyName {
+   color: #517192;
+}
+pre.smoothy .CssPseudo {
+   color: #9D3C3E;
+}
+pre.smoothy .InlineTag {
+   color: #54724B;
+}
+pre.smoothy .Entity {
+   color: #2EB43B;
+}
+pre.smoothy .Comment {
+   background-color: #112B0A;
+   color: #CFCFCF;
+}

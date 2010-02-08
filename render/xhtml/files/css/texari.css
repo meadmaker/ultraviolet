@@ -1,0 +1,197 @@
+pre.texari .StringComment {
+   color: #CCCCCC;
+   font-style: italic;
+}
+pre.texari .StringQuotedDocinfo {
+   color: #CFA29D;
+}
+pre.texari .AttributeValueKnown {
+   background-color: #2E3942;
+   color: #7CC7B6;
+}
+pre.texari .CssPropertyValue {
+   color: #F9EE98;
+}
+pre.texari .String {
+   color: #817767;
+}
+pre.texari .Constant {
+   color: #ECDFE7;
+}
+pre.texari .line-numbers {
+   background-color: #FDFFD8;
+   color: #000000;
+}
+pre.texari .StringOtherTagPlugin {
+   color: #DCE5F8;
+}
+pre.texari .EmbeddedSource {
+   background-color: #514846;
+}
+pre.texari .Variable {
+   color: #7587A6;
+}
+pre.texari .Support {
+   color: #9B859D;
+}
+pre.texari .MarkupList {
+   color: #F9EE98;
+}
+pre.texari .DiffInserted {
+   background-color: #253B22;
+   color: #F8F8F8;
+}
+pre.texari .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.texari .CssConstructorArgument {
+   color: #8F9D6A;
+}
+pre.texari .CCCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.texari .Storage {
+   color: #F9EE98;
+}
+pre.texari .InvalidAttributeUnrecognized {
+   background-color: #8A2632;
+   color: #FFF6F6;
+}
+pre.texari .TxpContainerTag {
+   background-color: #372A26;
+   color: #CAD0A8;
+}
+pre.texari .DiffChanged {
+   background-color: #4A410D;
+   color: #F8F8F8;
+}
+pre.texari .StringConstant {
+   color: #DDF2A4;
+}
+pre.texari .MetaTagSgmlDoctype {
+   color: #B5C8A6;
+}
+pre.texari .CssAtRule {
+   color: #8693A5;
+}
+pre.texari .InvalidIllegal {
+   background-color: #312723;
+   color: #EBE9F8;
+}
+pre.texari .StringTagAttribute {
+   background-color: #463C3B;
+   color: #7DAFC2;
+   font-style: italic;
+}
+pre.texari .MarkupHeading {
+   color: #CF6A4C;
+}
+pre.texari .CssClass {
+   color: #9B703F;
+}
+pre.texari .SupportConstant {
+   color: #CF6A4C;
+}
+pre.texari .PluginId {
+   color: #959BB8;
+}
+pre.texari .MetaTagSingle {
+   color: #D7ECCE;
+}
+pre.texari .MetaTagInline {
+   color: #E0C589;
+}
+pre.texari .CCCPreprocessorLine {
+   color: #8996A8;
+}
+pre.texari .StringEmbeddedSource {
+   color: #DAEFA3;
+}
+pre.texari .AttributeWithValue {
+   background-color: #51464E;
+   color: #ADE6FF;
+}
+pre.texari .StringConstant1 {
+   color: #F8E3AA;
+}
+pre.texari .CssPseudoClass {
+   color: #8F9D6A;
+}
+pre.texari .CssTagName {
+   color: #CDA869;
+}
+pre.texari .SupportFunction {
+   color: #DAD085;
+}
+pre.texari .Keyword {
+   color: #CDA869;
+}
+pre.texari .EntityNameTagSingle {
+   color: #B76746;
+}
+pre.texari .DiffDeleted {
+   background-color: #420E09;
+   color: #F8F8F8;
+}
+pre.texari .CssAdditionalConstants {
+   color: #CA7840;
+}
+pre.texari .MetaTagAll {
+   color: #AC885B;
+}
+pre.texari .DoctypeXmlProcessing {
+   color: #494949;
+}
+pre.texari .StringRegexpSpecial {
+   color: #CF7D34;
+}
+pre.texari .StringRegexp {
+   color: #E9C062;
+}
+pre.texari .EntityInheritedClass {
+   color: #9B5C2E;
+   font-style: italic;
+}
+pre.texari .EmbeddedSourceBright {
+   background-color: #5E5756;
+}
+pre.texari {
+   background-color: #332722;
+   color: #F8F8F8;
+}
+pre.texari .EntityNameTagCondition {
+   color: #7DA6C2;
+}
+pre.texari .TxpAttributeName {
+   background-color: #5B5354;
+   color: #ABC288;
+}
+pre.texari .AttributeValueTxp {
+   color: #B3F88C;
+}
+pre.texari .CssId {
+   color: #8B98AB;
+}
+pre.texari .StringVariable {
+   color: #8A9A95;
+}
+pre.texari .EntityNameTag {
+   background-color: #2F2C2A;
+   color: #F8DAA0;
+}
+pre.texari .TextHtmlTxp {
+   background-color: #151819;
+   color: #D3DC99;
+}
+pre.texari .CssPropertyName {
+   color: #C5AF75;
+}
+pre.texari .InvalidDeprecated {
+   color: #D2A8A1;
+   font-style: italic;
+}
+pre.texari .Entity {
+   color: #C1C1C1;
+}

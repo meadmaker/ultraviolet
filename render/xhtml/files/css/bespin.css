@@ -1,0 +1,137 @@
+pre.bespin .CssPropertyValue {
+   color: #F9EE98;
+}
+pre.bespin .String {
+   color: #54BE0D;
+}
+pre.bespin .Constant {
+   color: #CF6A4C;
+}
+pre.bespin .line-numbers {
+   background-color: #DDF0FF;
+   color: #000000;
+}
+pre.bespin .EmbeddedSource {
+   background-color: #A5A7AD;
+}
+pre.bespin .Variable {
+   color: #7587A6;
+}
+pre.bespin .Support {
+   color: #9B859D;
+}
+pre.bespin .MarkupList {
+   color: #F9EE98;
+}
+pre.bespin .DiffInserted {
+   background-color: #253B22;
+   color: #F8F8F8;
+}
+pre.bespin .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.bespin .CssConstructorArgument {
+   color: #8F9D6A;
+}
+pre.bespin .CCCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.bespin .Storage {
+   color: #F9EE98;
+}
+pre.bespin .TagName {
+   color: #5EA6EA;
+}
+pre.bespin .DiffChanged {
+   background-color: #4A410D;
+   color: #F8F8F8;
+}
+pre.bespin .StringConstant {
+   color: #DDF2A4;
+}
+pre.bespin .CssAtRule {
+   color: #8693A5;
+}
+pre.bespin .InvalidIllegal {
+   background-color: #33242A;
+   color: #F8F8F8;
+}
+pre.bespin .MarkupHeading {
+   color: #CF6A4C;
+}
+pre.bespin .CssClass {
+   color: #9B703F;
+}
+pre.bespin .SupportConstant {
+   color: #CF6A4C;
+}
+pre.bespin .CCCPreprocessorLine {
+   color: #8996A8;
+}
+pre.bespin .StringEmbeddedSource {
+   color: #DAEFA3;
+}
+pre.bespin .CssPseudoClass {
+   color: #8F9D6A;
+}
+pre.bespin .CssTagName {
+   color: #CDA869;
+}
+pre.bespin .SupportFunction {
+   color: #DAD085;
+}
+pre.bespin .Keyword {
+   color: #5EA6EA;
+}
+pre.bespin .DiffDeleted {
+   background-color: #420E09;
+   color: #F8F8F8;
+}
+pre.bespin .CssAdditionalConstants {
+   color: #CA7840;
+}
+pre.bespin .MetaTagAll {
+   color: #AC885B;
+}
+pre.bespin .DoctypeXmlProcessing {
+   color: #5EA6EA;
+}
+pre.bespin .StringRegexpSpecial {
+   color: #CF7D34;
+}
+pre.bespin .StringRegexp {
+   color: #E9C062;
+}
+pre.bespin .EntityInheritedClass {
+   color: #9B5C2E;
+   font-style: italic;
+}
+pre.bespin .EmbeddedSourceBright {
+   background-color: #9FA0A5;
+}
+pre.bespin .CssId {
+   color: #8B98AB;
+}
+pre.bespin .StringVariable {
+   color: #8A9A95;
+}
+pre.bespin {
+   background-color: #28211C;
+   color: #BAAE9E;
+}
+pre.bespin .CssPropertyName {
+   color: #C5AF75;
+}
+pre.bespin .InvalidDeprecated {
+   color: #D2A8A1;
+   font-style: italic;
+}
+pre.bespin .Entity {
+   color: #937121;
+}
+pre.bespin .Comment {
+   color: #666666;
+   font-style: italic;
+}

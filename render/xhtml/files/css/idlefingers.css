@@ -1,0 +1,100 @@
+pre.idlefingers .ClassInheritance {
+   font-style: italic;
+}
+pre.idlefingers .String {
+   color: #A5C261;
+}
+pre.idlefingers .Constant {
+   color: #6C99BB;
+}
+pre.idlefingers .RubyFunctionName {
+   color: #FFF980;
+}
+pre.idlefingers .line-numbers {
+   background-color: #5A647E;
+   color: #FFFFFF;
+}
+pre.idlefingers .TextileBold {
+   font-weight: bold;
+   color: #C2C2C2;
+}
+pre.idlefingers .OtherVariable {
+   color: #B7DFF8;
+}
+pre.idlefingers .TextileNumberedList {
+   color: #6EA533;
+}
+pre.idlefingers .StringEscapesExecuted {
+   color: #787878;
+}
+pre.idlefingers .BlockComment {
+   background-color: #575757;
+   color: #FFFFFF;
+}
+pre.idlefingers .FunctionName1 {
+}
+pre.idlefingers {
+   background-color: #323232;
+   color: #FFFFFF;
+}
+pre.idlefingers .TagName {
+}
+pre.idlefingers .ClassName {
+   text-decoration: underline;
+}
+pre.idlefingers .StringExecuted {
+   background-color: #CCCC33;
+   color: #000000;
+}
+pre.idlefingers .FunctionArgument {
+   font-style: italic;
+}
+pre.idlefingers .RubyClassName {
+   color: #CCCC33;
+}
+pre.idlefingers .PreProcessorLine {
+   color: #D0D0FF;
+}
+pre.idlefingers .SupportFunction {
+   color: #B83426;
+}
+pre.idlefingers .TagAttribute {
+}
+pre.idlefingers .StringLiteral {
+   color: #CCCC33;
+}
+pre.idlefingers .PreProcessorDirective {
+}
+pre.idlefingers .Keyword {
+   color: #CC7833;
+}
+pre.idlefingers .Text {
+   color: #FFFFFF;
+}
+pre.idlefingers .SourceBase {
+   background-color: #282828;
+   color: #CDCDCD;
+}
+pre.idlefingers .Invalid {
+   background-color: #FF0000;
+   color: #FFFFFF;
+}
+pre.idlefingers .TextileList {
+   color: #6EA533;
+}
+pre.idlefingers .HtmlTags {
+   color: #FFE5BB;
+}
+pre.idlefingers .RegularExpression {
+   color: #CCCC33;
+}
+pre.idlefingers .StringEscapes {
+   color: #AAAAAA;
+}
+pre.idlefingers .FunctionName {
+   color: #FFC66D;
+}
+pre.idlefingers .Comment {
+   color: #BC9458;
+   font-style: italic;
+}

@@ -1,0 +1,113 @@
+pre.black_pearl .CssSelector {
+   font-weight: bold;
+   color: #B53B3C;
+}
+pre.black_pearl .ClassInheritance {
+   font-weight: bold;
+}
+pre.black_pearl .String {
+   color: #CC66FF;
+}
+pre.black_pearl .Constant {
+   color: #8AA6C1;
+}
+pre.black_pearl .line-numbers {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.black_pearl .DiffInserted {
+   background-color: #253B22;
+}
+pre.black_pearl .DiffHeader {
+   background-color: #0E2231;
+   font-style: italic;
+}
+pre.black_pearl .Symbols {
+   color: #80D500;
+}
+pre.black_pearl .BlockComment {
+   background-color: #000000;
+   color: #438AD7;
+   font-style: italic;
+}
+pre.black_pearl .DiffChanged {
+   background-color: #4A410D;
+}
+pre.black_pearl .CssProperty {
+   color: #8AA6C1;
+}
+pre.black_pearl .TagName {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl .ClassName {
+   font-weight: bold;
+}
+pre.black_pearl .Operators {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl .StringExecuted {
+   background-color: #E9CC46;
+   color: #FF7819;
+}
+pre.black_pearl .TextBase {
+   background-color: #000000;
+   color: #B4D3E2;
+}
+pre.black_pearl .FunctionArgument {
+   color: #8AA6C1;
+   font-style: italic;
+}
+pre.black_pearl .PreProcessorLine {
+   background-color: #000000;
+   color: #B6B9F9;
+}
+pre.black_pearl .Control {
+   color: #F8BB00;
+}
+pre.black_pearl .TagAttribute {
+   color: #FFFFFF;
+}
+pre.black_pearl .StringLiteral {
+   color: #E2CE00;
+}
+pre.black_pearl .RegexpEscapes {
+   font-weight: bold;
+   color: #FF9D00;
+}
+pre.black_pearl .Keyword {
+   color: #8AA6C1;
+}
+pre.black_pearl {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.black_pearl .DiffDeleted {
+   background-color: #420E09;
+}
+pre.black_pearl .Numbers {
+   color: #EDDD5A;
+}
+pre.black_pearl .SourceBase {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.black_pearl .Invalid {
+   background-color: #670000;
+   color: #FFFFFF;
+}
+pre.black_pearl .RegularExpression {
+   color: #CA4344;
+}
+pre.black_pearl .StringEscapes {
+   font-weight: bold;
+   color: #FF2837;
+}
+pre.black_pearl .Type {
+   color: #80D500;
+}
+pre.black_pearl .Comment {
+   color: #428BDD;
+   font-style: italic;
+}

@@ -1,0 +1,61 @@
+pre.emacs .String {
+   color: #FF9E7B;
+}
+pre.emacs .Preprocessor {
+   color: #AEC4DE;
+}
+pre.emacs .line-numbers {
+   background-color: #001DC3;
+   color: #000000;
+}
+pre.emacs .Class {
+   color: #94FE9A;
+}
+pre.emacs .MarkupTagAttribute {
+   color: #EBDB8D;
+}
+pre.emacs .Storage {
+   color: #94FE9A;
+}
+pre.emacs .Keywords {
+   color: #00FFFF;
+}
+pre.emacs .MarkupHeading {
+   color: #E27F3F;
+}
+pre.emacs .MarkupTag {
+}
+pre.emacs .MarkupNameOfTag {
+   color: #9CCFF4;
+}
+pre.emacs .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+   color: #000000;
+}
+pre.emacs .StorageModifier {
+   color: #00FFFF;
+}
+pre.emacs .MarkupXmlDeclaration {
+   color: #7DFDFA;
+}
+pre.emacs .Function {
+   color: #81CEF9;
+}
+pre.emacs .MarkupLink {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.emacs .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.emacs .MarkupDoctype {
+   color: #7DFDFA;
+}
+pre.emacs .Comment {
+   color: #FF7D27;
+}
+pre.emacs {
+   background-color: #000000;
+   color: #D3D3D3;
+}

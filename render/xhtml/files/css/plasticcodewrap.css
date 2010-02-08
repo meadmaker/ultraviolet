@@ -1,0 +1,120 @@
+pre.plasticcodewrap .CssPropertyValue {
+   color: #F6F080;
+}
+pre.plasticcodewrap .CCPreprocessorDirective {
+   color: #AFC4DB;
+}
+pre.plasticcodewrap .String {
+   color: #55E439;
+}
+pre.plasticcodewrap .Constant {
+   color: #FF3A83;
+}
+pre.plasticcodewrap .line-numbers {
+   background-color: #C5DFE9;
+   color: #000000;
+}
+pre.plasticcodewrap .EmbeddedSource {
+   background-color: #A3A6AD;
+}
+pre.plasticcodewrap .Variable {
+   color: #FB9A4B;
+}
+pre.plasticcodewrap .Support {
+   color: #9DF39F;
+}
+pre.plasticcodewrap {
+   background-color: #0B161D;
+   color: #F8F8F8;
+}
+pre.plasticcodewrap .DiffInserted {
+   background-color: #41A83E;
+   color: #F8F8F8;
+}
+pre.plasticcodewrap .DiffHeader {
+   background-color: #0E2231;
+   color: #F8F8F8;
+   font-style: italic;
+}
+pre.plasticcodewrap .CssConstructorArgument {
+   color: #EB939A;
+}
+pre.plasticcodewrap .Storage {
+   color: #F6F080;
+}
+pre.plasticcodewrap .DiffChanged {
+   background-color: #C4B14A;
+   color: #F8F8F8;
+}
+pre.plasticcodewrap .StringConstant {
+   color: #9DF39F;
+}
+pre.plasticcodewrap .CssAtRule {
+   color: #F6AA11;
+}
+pre.plasticcodewrap .CssClass {
+   color: #5FE461;
+}
+pre.plasticcodewrap .SupportConstant {
+   color: #EB939A;
+}
+pre.plasticcodewrap .MetaTagA {
+   color: #9EFFFF;
+}
+pre.plasticcodewrap .CCPreprocessorLine {
+   color: #8996A8;
+}
+pre.plasticcodewrap .StringEmbeddedSource {
+   color: #9DF39F;
+}
+pre.plasticcodewrap .CssTagName {
+   color: #9EFFFF;
+}
+pre.plasticcodewrap .SupportFunction {
+   color: #FFB454;
+}
+pre.plasticcodewrap .Keyword {
+   font-weight: bold;
+   color: #FFAA00;
+}
+pre.plasticcodewrap .DiffDeleted {
+   background-color: #D03620;
+   color: #F8F8F8;
+}
+pre.plasticcodewrap .CssAdditionalConstants {
+   color: #EDF080;
+}
+pre.plasticcodewrap .DoctypeXmlProcessing {
+   color: #73817D;
+}
+pre.plasticcodewrap .StringRegexp {
+   color: #FFB454;
+}
+pre.plasticcodewrap .EntityInheritedClass {
+   color: #4EE161;
+   font-style: italic;
+}
+pre.plasticcodewrap .EmbeddedSourceBright {
+   background-color: #9B9EA5;
+}
+pre.plasticcodewrap .CssId {
+   color: #FFB454;
+}
+pre.plasticcodewrap .StringVariable {
+   color: #EDEF7D;
+}
+pre.plasticcodewrap .Invalid {
+   background-color: #3F1A18;
+   color: #F8F8F8;
+}
+pre.plasticcodewrap .CssPropertyName {
+   color: #9DF39F;
+}
+pre.plasticcodewrap .Entity {
+   font-weight: bold;
+   color: #EFE900;
+}
+pre.plasticcodewrap .Comment {
+   color: #1E9AE0;
+   font-style: italic;
+}

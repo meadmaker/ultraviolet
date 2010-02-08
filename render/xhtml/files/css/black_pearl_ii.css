@@ -1,0 +1,138 @@
+pre.black_pearl_ii .CssSelector {
+   font-weight: bold;
+   color: #B53B3C;
+}
+pre.black_pearl_ii .LibraryFunctConstVar {
+   color: #8AA6C1;
+}
+pre.black_pearl_ii .ClassInheritance {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .String {
+   color: #CC66FF;
+}
+pre.black_pearl_ii .FunctionDeclaration {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .line-numbers {
+   background-color: #FFFFFF;
+   color: #000000;
+}
+pre.black_pearl_ii .LibraryObject {
+   font-weight: bold;
+   color: #8AA6C1;
+}
+pre.black_pearl_ii .LanguageConstant {
+   font-weight: bold;
+   color: #80D500;
+}
+pre.black_pearl_ii .Variable {
+   color: #D0FF7E;
+}
+pre.black_pearl_ii .DiffInserted {
+   background-color: #253B22;
+}
+pre.black_pearl_ii .DiffHeader {
+   background-color: #0E2231;
+   font-style: italic;
+}
+pre.black_pearl_ii .Symbols {
+   color: #66CCFF;
+}
+pre.black_pearl_ii .Underline {
+   text-decoration: underline;
+}
+pre.black_pearl_ii .DiffChanged {
+   background-color: #4A410D;
+}
+pre.black_pearl_ii .CssProperty {
+   color: #8AA6C1;
+}
+pre.black_pearl_ii .TagName {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .ClassName {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .StringExecuted {
+   color: #FF7819;
+}
+pre.black_pearl_ii .Operators {
+   font-weight: bold;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .TextBase {
+   color: #B4D3E2;
+}
+pre.black_pearl_ii .FunctionArgument {
+   color: #8AA6C1;
+   font-style: italic;
+}
+pre.black_pearl_ii .StringEmbeddedSource {
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .PreProcessorLine {
+   color: #B6B9F9;
+}
+pre.black_pearl_ii .Control {
+   color: #FF9D00;
+}
+pre.black_pearl_ii .TagAttribute {
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .RegexpEscapes {
+   font-weight: bold;
+   color: #FF7819;
+}
+pre.black_pearl_ii .Keyword {
+   font-weight: bold;
+   color: #F8BB00;
+}
+pre.black_pearl_ii .Link {
+   text-decoration: underline;
+   color: #66CCFF;
+}
+pre.black_pearl_ii .DiffDeleted {
+   background-color: #420E09;
+}
+pre.black_pearl_ii .Numbers {
+   color: #EDDD5A;
+}
+pre.black_pearl_ii .PhpVariable {
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .SourceBase {
+   color: #CCCCCC;
+}
+pre.black_pearl_ii {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.black_pearl_ii .Invalid {
+   font-weight: bold;
+   background-color: #670000;
+}
+pre.black_pearl_ii .Italic {
+   font-style: italic;
+}
+pre.black_pearl_ii .Bold {
+   font-weight: bold;
+}
+pre.black_pearl_ii .RegularExpression {
+   color: #CA4344;
+}
+pre.black_pearl_ii .StringEscapes {
+   font-weight: bold;
+   color: #FF2837;
+}
+pre.black_pearl_ii .Type {
+   color: #80D500;
+}
+pre.black_pearl_ii .Comment {
+   color: #428BDD;
+   font-style: italic;
+}

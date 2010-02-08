@@ -1,0 +1,124 @@
+pre.fluidvision .LibraryVariable {
+   font-weight: bold;
+   color: #21439C;
+}
+pre.fluidvision .String {
+   color: #840E0B;
+}
+pre.fluidvision .UserDefinedConstant {
+   color: #C5060B;
+   font-style: italic;
+}
+pre.fluidvision .line-numbers {
+   background-color: #FFD793;
+   color: #000000;
+}
+pre.fluidvision .EmbeddedSource {
+   background-color: #719DF4;
+}
+pre.fluidvision .LibraryObject {
+   font-weight: bold;
+   color: #2D5579;
+}
+pre.fluidvision .Section {
+   font-style: italic;
+}
+pre.fluidvision .Variable {
+   color: #20498D;
+   font-style: italic;
+}
+pre.fluidvision .MarkupList {
+   color: #B90690;
+}
+pre.fluidvision .MarkupTagAttribute {
+   color: #000000;
+   font-style: italic;
+}
+pre.fluidvision .FunctionParameter {
+   font-style: italic;
+}
+pre.fluidvision .ClassName {
+   font-style: italic;
+}
+pre.fluidvision .Number {
+   font-weight: bold;
+   color: #C34F0A;
+}
+pre.fluidvision .MarkupHeading {
+   font-weight: bold;
+   color: #0C07FF;
+}
+pre.fluidvision .InheritedClassName {
+   font-style: italic;
+}
+pre.fluidvision .StringInterpolation {
+   color: #26B31A;
+}
+pre.fluidvision .BuiltInConstant {
+   color: #585CF6;
+   font-style: italic;
+}
+pre.fluidvision .MarkupQuote {
+   color: #000000;
+   font-style: italic;
+}
+pre.fluidvision .MarkupNameOfTag {
+   font-weight: bold;
+   color: #001D56;
+}
+pre.fluidvision .MarkupTag {
+   color: #1C3981;
+}
+pre.fluidvision .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+pre.fluidvision .LibraryConstant {
+   font-weight: bold;
+   color: #619A1C;
+}
+pre.fluidvision .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.fluidvision .JsOperator {
+   color: #687687;
+}
+pre.fluidvision .LibraryFunction {
+   font-weight: bold;
+   color: #3C4C72;
+}
+pre.fluidvision .Keyword {
+   font-weight: bold;
+   color: #5B91E1;
+}
+pre.fluidvision .PreprocessorLine {
+   color: #1A921C;
+}
+pre.fluidvision .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.fluidvision .PreprocessorDirective {
+   font-weight: bold;
+   color: #0C450D;
+}
+pre.fluidvision {
+   background-color: #F4F4F4;
+   color: #000000;
+}
+pre.fluidvision .MarkupDtd {
+   font-style: italic;
+}
+pre.fluidvision .MarkupDoctype {
+   color: #888888;
+}
+pre.fluidvision .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.fluidvision .FunctionName {
+   font-weight: bold;
+   color: #1B4B9D;
+}
+pre.fluidvision .Comment {
+   background-color: #DEEEFD;
+   color: #386F90;
+}

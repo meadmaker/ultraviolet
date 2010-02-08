@@ -1,0 +1,61 @@
+pre.boysandgirls01 .LibraryVariable {
+}
+pre.boysandgirls01 .UserDefinedConstant {
+   color: #00D8FF;
+}
+pre.boysandgirls01 .String {
+   color: #00D8FF;
+}
+pre.boysandgirls01 .line-numbers {
+   background-color: #E60C65;
+   color: #000000;
+}
+pre.boysandgirls01 .InheritedClass {
+}
+pre.boysandgirls01 .Variable {
+   font-weight: bold;
+   color: #E62286;
+}
+pre.boysandgirls01 .Storage {
+}
+pre.boysandgirls01 .TagName {
+   font-weight: bold;
+}
+pre.boysandgirls01 .ClassName {
+   font-weight: bold;
+}
+pre.boysandgirls01 .Number {
+   color: #E62286;
+}
+pre.boysandgirls01 .FunctionArgument {
+   font-weight: bold;
+   color: #E62286;
+}
+pre.boysandgirls01 .BuiltInConstant {
+}
+pre.boysandgirls01 .LibraryConstant {
+}
+pre.boysandgirls01 .LibraryFunction {
+}
+pre.boysandgirls01 .TagAttribute {
+   font-weight: bold;
+   color: #E62286;
+}
+pre.boysandgirls01 .Keyword {
+}
+pre.boysandgirls01 {
+   background-color: #000306;
+   color: #FFFFFF;
+}
+pre.boysandgirls01 .Invalid {
+   color: #FF0C00;
+}
+pre.boysandgirls01 .LibraryClassType {
+}
+pre.boysandgirls01 .FunctionName {
+   font-weight: bold;
+}
+pre.boysandgirls01 .Comment {
+   background-color: #08090E;
+   color: #404040;
+}
