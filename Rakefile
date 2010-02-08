@@ -4,45 +4,28 @@ require 'fileutils'
 rubyforge_name = "ultraviolet"
 
 begin
-   require 'hoe'
-   
-   class Hoe 
-      # Dirty hack to eliminate Hoe from gem dependencies
-      def extra_deps 
-         @extra_deps.delete_if{ |x| x.first == 'hoe' }
-      end
-   end
-   
-   version = /^== *(\d+\.\d+\.\d+)/.match( File.read( 'History.txt' ) )[1]
-   
-   h = Hoe.new('ultraviolet', version) do |p|
-      p.rubyforge_name = 'ultraviolet'
-      p.author = ['Dizan Vasquez']
-      p.email  = ['dichodaemon@gmail.com']
-      p.email = 'dichodaemon@gmail.com'
-      p.summary = 'Syntax highlighting engine'
-      p.description = p.paragraphs_of('README.txt', 1 ).join('\n\n')
-      p.url = 'http://ultraviolet.rubyforge.org'
-      p.rdoc_pattern = /^(lib|bin|ext)|txt$/
-      p.changes = p.paragraphs_of('History.txt', 0).join("\n\n")
-      p.extra_deps << ['textpow', '>= 0.10.0']
-      p.clean_globs = ["manual/*"]
-   end
-   
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "hyperbolist-ultraviolet"
+    gemspec.summary = "Ultraviolet is a syntax highlighting engine"
+    gemspec.description = "Ultraviolet is a syntax highlighting engine based on Textpow. Since it uses Textmate syntax files, it offers out of the box syntax highlighting for more than 50 languages and 20 themes."
+    gemspec.email = "hyperbolist@gmail.com"
+    gemspec.homepage = "http://github.com/hyperbolist/ultraviolet"
+    gemspec.authors = ["Eric Sherman"]
+    gemspec.add_dependency('oniguruma', '>= 1.1.0')
+    gemspec.add_dependency('textpow', '>= 0.9.0')
+    Jeweler::GemcutterTasks.new
+  end
+rescue LoadError
+  puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
+end
+
+begin
    desc 'Create MaMa documentation'
    task :mama => :clean do
       system "mm -c -t refresh -o manual mm/manual.mm"
    end
    
-   desc 'Publish MaMa documentation to RubyForge'
-      task :mama_publish => [:clean, :mama] do
-      config = YAML.load(File.read(File.expand_path("~/.rubyforge/user-config.yml")))
-      host = "#{config["username"]}@rubyforge.org"
-      remote_dir = "/var/www/gforge-projects/#{h.rubyforge_name}"
-      local_dir = 'manual'
-      system "rsync -av --delete #{local_dir}/ #{host}:#{remote_dir}"
-   end
-
 rescue LoadError => e
    desc 'Run the test suite.'
    task :test do
