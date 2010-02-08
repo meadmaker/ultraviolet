@@ -1,0 +1,120 @@
+pre.vibrant_ink .JavascriptEvents {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .CssSelector {
+   color: #FF6600;
+}
+pre.vibrant_ink .ClassInheritance {
+   font-style: italic;
+}
+pre.vibrant_ink .String {
+   color: #66FF00;
+}
+pre.vibrant_ink .Constant {
+   color: #339999;
+}
+pre.vibrant_ink .line-numbers {
+   background-color: #35493C;
+   color: #FFFFFF;
+}
+pre.vibrant_ink .OtherKeywords {
+   color: #DDE93D;
+}
+pre.vibrant_ink .Variable {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .RubySource {
+}
+pre.vibrant_ink .RubyHtml {
+   background-color: #101010;
+   color: #FFFFFF;
+}
+pre.vibrant_ink .InlineRubyHtml {
+   background-color: #000000;
+}
+pre.vibrant_ink .PrototypeObjects {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .JavascriptOperators {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .StringEscapesExecuted {
+   color: #555555;
+}
+pre.vibrant_ink .BlockComment {
+   background-color: #070707;
+   color: #772CB7;
+}
+pre.vibrant_ink .CssProperty {
+   color: #999966;
+}
+pre.vibrant_ink .TagName {
+}
+pre.vibrant_ink .ClassName {
+   text-decoration: underline;
+}
+pre.vibrant_ink .StringExecuted {
+   background-color: #CCCC33;
+   color: #000000;
+}
+pre.vibrant_ink .TextBase {
+   background-color: #0F0F0F;
+   color: #FFFFFF;
+}
+pre.vibrant_ink {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.vibrant_ink .JavascriptKeywords {
+   color: #CCCC66;
+}
+pre.vibrant_ink .CssOther {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .FunctionArgument {
+   font-style: italic;
+}
+pre.vibrant_ink .PreProcessorLine {
+   color: #EDF8F9;
+}
+pre.vibrant_ink .RubyNumber {
+   color: #CCFF33;
+}
+pre.vibrant_ink .TagAttribute {
+   color: #99CC99;
+   font-style: italic;
+}
+pre.vibrant_ink .StringLiteral {
+   color: #CCCC33;
+}
+pre.vibrant_ink .ActiverecordFunction {
+   color: #999966;
+}
+pre.vibrant_ink .PreProcessorDirective {
+   color: #FFFFFF;
+}
+pre.vibrant_ink .Keyword {
+   color: #FF6600;
+}
+pre.vibrant_ink .HtmlMeta {
+   color: #FF6600;
+}
+pre.vibrant_ink .SourceBase {
+   background-color: #000000;
+   color: #FFFFFF;
+}
+pre.vibrant_ink .PrototypeMethods {
+   color: #FF6600;
+}
+pre.vibrant_ink .RegularExpression {
+   color: #44B4CC;
+}
+pre.vibrant_ink .StringEscapes {
+   color: #AAAAAA;
+}
+pre.vibrant_ink .FunctionName {
+   color: #FFCC00;
+}
+pre.vibrant_ink .Comment {
+   color: #9933CC;
+}
