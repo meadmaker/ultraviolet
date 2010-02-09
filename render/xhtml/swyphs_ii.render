@@ -1,0 +1,113 @@
+--- 
+name: Swyphs II
+line: 
+  begin: ""
+  end: ""
+filter: CGI.escapeHTML( @escaped )
+document: 
+  begin: |
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+      <meta http-equiv="cache-control" content="no-cache" />
+      <meta http-equiv="expires" content="3600" />
+      <meta name="revisit-after" content="2 days" />
+      <meta name="robots" content="index,follow" />
+      <meta name="publisher" content="Dichodaemon" />
+      <meta name="copyright" content="Dichodaemon" />
+    
+      <meta name="author" content="Dichodaemon" />
+      <meta name="distribution" content="global" />
+      <meta name="description" content="Ocatarinetabellachithchix" />
+      <meta name="keywords" content="arzaversperia flexilimosos toves" />
+      <link rel="stylesheet" type="text/css" media="screen,projection,print" href="css/swyphs_ii.css" />
+      <title>swyphs_ii</title>
+    
+    </head>
+    
+    <body>
+
+  end: "  <p>\n    <a href=\"http://validator.w3.org/check?uri=referer\">\n      <img style=\"border:0\"\n           src=\"http://www.w3.org/Icons/valid-xhtml10\"\n           alt=\"Valid XHTML 1.0 Strict\" height=\"31\" width=\"88\" />\n    </a>\n    <a href=\"http://jigsaw.w3.org/css-validator/check?uri=referer\">\n      <img style=\"border:0;width:88px;height:31px\"\n           src=\"http://jigsaw.w3.org/css-validator/images/vcss\" \n           alt=\"Valid CSS!\" />\n    </a>\n  </p>\n\
+    </body>\n\
+    </html>\n"
+tags: 
+- begin: <span class="Source">
+  end: </span>
+  selector: source
+- begin: <span class="Comment">
+  end: </span>
+  selector: comment
+- begin: <span class="ReturnValue">
+  end: </span>
+  selector: meta.method-return.actionscript.3
+- begin: <span class="AsdocSeeReferences">
+  end: </span>
+  selector: meta.documentation.tag.see.asdoc
+- begin: <span class="AsdocParamReferences">
+  end: </span>
+  selector: meta.documentation.tag.param.asdoc
+- begin: <span class="ControlStatement">
+  end: </span>
+  selector: keyword.control
+- begin: <span class="Storage">
+  end: </span>
+  selector: storage.modifier, meta.tag.inline.any.html, meta.tag.structure.any.html, meta.tag.block.any.html
+- begin: <span class="Symbol">
+  end: </span>
+  selector: keyword.operator.symbolic, entity.other.attribute-name
+- begin: <span class="StorageType">
+  end: </span>
+  selector: storage.type, support.constant.actionscript.2
+- begin: <span class="FunctionName">
+  end: </span>
+  selector: entity.name.function.actionscript
+- begin: <span class="Import">
+  end: </span>
+  selector: storage.type.import
+- begin: <span class="Namespace">
+  end: </span>
+  selector: storage.type.namespace
+- begin: <span class="NumberString">
+  end: </span>
+  selector: constant.numeric, string.quoted
+- begin: <span class="Accessor">
+  end: </span>
+  selector: storage.type.accessor
+- begin: <span class="Type">
+  end: </span>
+  selector: support.type.function.global, support.class
+- begin: <span class="Function">
+  end: </span>
+  selector: support.function
+- begin: <span class="Constant">
+  end: </span>
+  selector: constant.language, source.js
+- begin: <span class="Property">
+  end: </span>
+  selector: support.property, source.css
+- begin: <span class="KeywordOperator">
+  end: </span>
+  selector: keyword.operator
+- begin: <span class="XmlTag">
+  end: </span>
+  selector: entity.name.tag.localname.xml
+- begin: <span class="XmlText">
+  end: </span>
+  selector: text.xml
+- begin: <span class="XmlCdataWrapper">
+  end: </span>
+  selector: punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml
+- begin: <span class="XmlCdataContent">
+  end: </span>
+  selector: string.unquoted.cdata.xml
+- begin: <span class="Constant1">
+  end: </span>
+  selector: constant.language.null.actionscript
+listing: 
+  begin: <pre class="swyphs_ii">
+  end: </pre>
+line-numbers: 
+  begin: <span class="line-numbers">
+  end: </span>

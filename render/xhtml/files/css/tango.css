@@ -1,0 +1,113 @@
+pre.tango .LibraryVariable {
+   color: #2E65A5;
+}
+pre.tango .String {
+   color: #A70000;
+}
+pre.tango .UserDefinedConstant {
+   color: #194A87;
+}
+pre.tango .line-numbers {
+   background-color: #4D97FF;
+   color: #000000;
+}
+pre.tango .EmbeddedSource {
+   background-color: #0C0C0C;
+}
+pre.tango .LibraryObject {
+   color: #D15B00;
+}
+pre.tango .Section {
+   font-style: italic;
+}
+pre.tango .Variable {
+   color: #194A87;
+}
+pre.tango .MarkupList {
+   color: #B90690;
+}
+pre.tango .MarkupTagAttribute {
+   font-style: italic;
+}
+pre.tango .FunctionParameter {
+   font-style: italic;
+}
+pre.tango .Number {
+   color: #4F9B00;
+}
+pre.tango .MarkupHeading {
+   color: #4266A0;
+}
+pre.tango .InheritedClassName {
+   font-style: italic;
+}
+pre.tango .StringInterpolation {
+   color: #A70000;
+}
+pre.tango .BuiltInConstant {
+   color: #194A87;
+}
+pre.tango .MarkupQuote {
+   color: #000000;
+   font-style: italic;
+}
+pre.tango .MarkupNameOfTag {
+}
+pre.tango .MarkupTag {
+   color: #4266A0;
+}
+pre.tango .InvalidTrailingWhitespace {
+   background-color: #FFD0D0;
+}
+pre.tango .LibraryConstant {
+   color: #529C08;
+}
+pre.tango .MarkupXmlDeclaration {
+   color: #68685B;
+}
+pre.tango .JsOperator {
+   color: #687687;
+}
+pre.tango .LibraryFunction {
+   color: #3C4C72;
+}
+pre.tango .Keyword {
+   font-weight: bold;
+   color: #303436;
+}
+pre.tango .PreprocessorLine {
+   color: #65961E;
+}
+pre.tango {
+   background-color: #FFFFFF;
+   color: #303436;
+}
+pre.tango .EmbeddedEmbeddedSource {
+   background-color: #0E0E0E;
+}
+pre.tango .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.tango .PreprocessorDirective {
+   color: #65961E;
+}
+pre.tango .MarkupDtd {
+   font-style: italic;
+}
+pre.tango .MarkupDoctype {
+   color: #888888;
+}
+pre.tango .FunctionArgumentAndResultTypes {
+   color: #70727E;
+}
+pre.tango .TypeName {
+   text-decoration: underline;
+}
+pre.tango .FunctionName {
+   color: #5C3566;
+}
+pre.tango .Comment {
+   color: #555753;
+   font-style: italic;
+}

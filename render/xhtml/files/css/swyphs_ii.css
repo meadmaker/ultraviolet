@@ -1,0 +1,82 @@
+pre.swyphs_ii .Constant1 {
+   color: #82484A;
+}
+pre.swyphs_ii .Constant {
+   color: #557474;
+}
+pre.swyphs_ii .Source {
+   color: #CACACA;
+}
+pre.swyphs_ii .line-numbers {
+   background-color: #BC1800;
+   color: #000000;
+}
+pre.swyphs_ii .XmlCdataContent {
+   color: #FEFAF7;
+}
+pre.swyphs_ii .Accessor {
+   color: #CD402F;
+}
+pre.swyphs_ii .ReturnValue {
+   color: #624343;
+}
+pre.swyphs_ii .XmlText {
+   color: #C5C5C5;
+}
+pre.swyphs_ii .KeywordOperator {
+   color: #608C6D;
+}
+pre.swyphs_ii .Storage {
+   color: #82677E;
+}
+pre.swyphs_ii .ControlStatement {
+   color: #92577E;
+}
+pre.swyphs_ii .Property {
+   color: #8B7867;
+}
+pre.swyphs_ii .StorageType {
+   color: #8D7D68;
+}
+pre.swyphs_ii .AsdocSeeReferences {
+   color: #383B40;
+}
+pre.swyphs_ii .XmlCdataWrapper {
+   color: #A99C6F;
+}
+pre.swyphs_ii .Namespace {
+   color: #654151;
+}
+pre.swyphs_ii {
+   background-color: #000000;
+   color: #C1C1C1;
+}
+pre.swyphs_ii .Function {
+   color: #7D6068;
+}
+pre.swyphs_ii .AsdocParamReferences {
+   color: #2E383E;
+}
+pre.swyphs_ii .XmlTag {
+   color: #647980;
+}
+pre.swyphs_ii .Type {
+   color: #867E63;
+}
+pre.swyphs_ii .NumberString {
+   color: #D7D7D7;
+}
+pre.swyphs_ii .Import {
+   color: #6C7D6A;
+}
+pre.swyphs_ii .FunctionName {
+   background-color: #000000;
+   color: #F0D155;
+}
+pre.swyphs_ii .Symbol {
+   color: #8B8B8B;
+}
+pre.swyphs_ii .Comment {
+   color: #575757;
+   font-style: italic;
+}

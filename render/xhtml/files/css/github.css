@@ -1,0 +1,173 @@
+pre.github .CssKeyword {
+   color: #009999;
+}
+pre.github .CssPropertyValue {
+   color: #009999;
+}
+pre.github .DoctypeDeclaration {
+   font-weight: bold;
+   color: #999999;
+}
+pre.github .DoctypePunctation {
+   font-weight: bold;
+   color: #999999;
+}
+pre.github .String {
+   color: #DD1144;
+}
+pre.github .Variable1 {
+   color: #0F8787;
+}
+pre.github .Source {
+   background-color: #F8F8FF;
+}
+pre.github .line-numbers {
+   background-color: #BCD5FA;
+   color: #000000;
+}
+pre.github .DiffHeaderFrom {
+   background-color: #FFDDDD;
+   color: #000000;
+}
+pre.github .HtmlTagPunctuation {
+   color: #121289;
+}
+pre.github .PunctuationBlock {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .InheritedClassSeperator {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .InheritedClass {
+   color: #0F8787;
+}
+pre.github .Variable {
+   color: #108888;
+}
+pre.github .DiffInserted {
+   background-color: #DDFFDD;
+}
+pre.github .CssBrackets {
+}
+pre.github .ErbTags {
+   font-weight: bold;
+   color: #999999;
+}
+pre.github .ArrayBrackets {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .KeywordOperator {
+   color: #000000;
+}
+pre.github .CssProperty {
+   font-weight: bold;
+}
+pre.github .SupportClass {
+   color: #008080;
+}
+pre.github .Number {
+   color: #009999;
+}
+pre.github .CssAttributeId {
+   font-weight: bold;
+   color: #990000;
+}
+pre.github .RubyStringInterpolation {
+   color: #CF1040;
+}
+pre.github .HtmlTagPunctuation1 {
+   color: #121289;
+}
+pre.github .PseudoClass {
+   color: #000000;
+}
+pre.github .Brackets {
+   color: #000000;
+}
+pre.github .BuiltInConstant {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .FunctionDefinition {
+   font-weight: bold;
+   color: #990000;
+}
+pre.github {
+   background-color: #F8F8FF;
+   color: #000000;
+}
+pre.github .CssEnding {
+   color: #000000;
+}
+pre.github .StringEmbeddedSource {
+   color: #000000;
+}
+pre.github .BuiltInConstant1 {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .CssConstantPropertyValue {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .HtmlAttribute {
+   color: #0A8585;
+}
+pre.github .KeywordLikeNew {
+}
+pre.github .Keyword {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .DiffDeleted {
+   background-color: #FFDDDD;
+   color: #000000;
+}
+pre.github .CssAttributeClass {
+   font-weight: bold;
+   color: #445588;
+}
+pre.github .CssFont {
+   color: #000000;
+}
+pre.github .StringRegexp {
+   color: #009926;
+}
+pre.github .SpecialRubyMethod {
+   font-weight: bold;
+}
+pre.github .DiffHeaderTo {
+   background-color: #DDFFDD;
+   color: #000000;
+}
+pre.github .CssPropertyPunctuation {
+   color: #000000;
+}
+pre.github .HashBrackets {
+   color: #000000;
+}
+pre.github .HashSeparator {
+   font-weight: bold;
+   color: #000000;
+}
+pre.github .ClassDefinition {
+   font-weight: bold;
+   color: #445588;
+}
+pre.github .HtmlAttributePunctation {
+   color: #0A8585;
+}
+pre.github .DoctypeString {
+   font-weight: bold;
+   color: #999999;
+}
+pre.github .Symbol {
+   color: #AA2C8C;
+}
+pre.github .Comment {
+   color: #999988;
+   font-style: italic;
+}
