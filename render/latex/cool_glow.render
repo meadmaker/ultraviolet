@@ -1,0 +1,111 @@
+--- 
+name: Cool Glow
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: "{\\color[HTML]{AEAEAE}"
+  end: "}"
+  selector: comment
+- begin: "{\\color[HTML]{62E9BD}"
+  end: "}"
+  selector: constant
+- begin: "{\\color[HTML]{A3EBFF}"
+  end: "}"
+  selector: entity
+- begin: "{\\color[HTML]{2BF1DC}"
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{F8FBB1}"
+  end: "}"
+  selector: storage
+- begin: "{\\color[HTML]{8DFF8E}"
+  end: "}"
+  selector: string, meta.verbatim
+- begin: "{\\color[HTML]{60A4F1}"
+  end: "}"
+  selector: support
+- begin: "{\\color[HTML]{B683CA}"
+  end: "}"
+  selector: variable
+- begin: "{\\color[HTML]{AB2A1D}\\textit{"
+  end: "}}"
+  selector: invalid.deprecated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{AD2117}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F8}
+  end: "}"
+  selector: invalid.illegal
+- begin: "{\\color[HTML]{61FFD2}\\textit{"
+  end: "}}"
+  selector: entity.other.inherited-class
+- begin: "{\\color[HTML]{92FFA3}"
+  end: "}"
+  selector: string constant.other.placeholder
+- begin: "{\\color[HTML]{BECDE6}"
+  end: "}"
+  selector: meta.function-call.py
+- begin: "{\\color[HTML]{7BACCA}"
+  end: "}"
+  selector: meta.tag, meta.tag entity
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: entity.name.section
+- begin: "{\\color[HTML]{D5E0F3}"
+  end: "}"
+  selector: keyword.type.variant
+- begin: "{\\color[HTML]{F8F8F8}"
+  end: "}"
+  selector: source.ocaml keyword.operator.symbol
+- begin: "{\\color[HTML]{8DA6CE}"
+  end: "}"
+  selector: source.ocaml keyword.operator.symbol.infix
+- begin: "{\\color[HTML]{8DA6CE}"
+  end: "}"
+  selector: source.ocaml keyword.operator.symbol.prefix
+- begin: "{\\underline{"
+  end: "}}"
+  selector: source.ocaml keyword.operator.symbol.infix.floating-point
+- begin: "{\\underline{"
+  end: "}}"
+  selector: source.ocaml keyword.operator.symbol.prefix.floating-point
+- begin: "{\\underline{"
+  end: "}}"
+  selector: source.ocaml constant.numeric.floating-point
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2E2E41}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.latex meta.environment
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{181E40}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.latex meta.environment meta.environment
+- begin: "{\\color[HTML]{FBDE2D}"
+  end: "}"
+  selector: text.latex support.function
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: source.plist string.unquoted, source.plist keyword.operator
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{E0E0E0}\columncolor[HTML]{06071D}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{122BBB}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

@@ -1,0 +1,213 @@
+--- 
+name: Monokai for Textmaters CUSTOM
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: "{\\underline{"
+  end: "}}"
+  selector: theme.credits
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FEFB31}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{170B10}
+  end: "}"
+  selector: theme.credits
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFE01}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{170B10}
+  end: "}"
+  selector: theme.credits
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DE2B7F}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}
+  end: "}"
+  selector: comment
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C5F601}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.tag, declaration.tag
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{070706}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: string.quoted
+- begin: "{\\color[HTML]{E6DB74}"
+  end: "}"
+  selector: string
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{5D662D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F800}
+  end: "}"
+  selector: string.regexp.classic
+- begin: "{\\color[HTML]{F89200}"
+  end: "}"
+  selector: punctuation.definition.character-class, punctuation.definition.arbitrary-repitition, punctuation.section.embedded.ruby
+- begin: "{\\color[HTML]{AE81FF}"
+  end: "}"
+  selector: constant.numeric
+- begin: "{\\color[HTML]{AE81FF}"
+  end: "}"
+  selector: constant.language
+- begin: "{\\color[HTML]{AE81FF}"
+  end: "}"
+  selector: constant.character, constant.other
+- begin: "{\\color[HTML]{BBEA9C}"
+  end: "}"
+  selector: variable.other.constant.ruby
+- begin: "{"
+  end: "}"
+  selector: variable
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0B0C0A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F92672}
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{F92672}"
+  end: "}"
+  selector: storage
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{468088}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{66D9EF}
+  end: "}"
+  selector: storage.type
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0A0A09}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{A6E22E}\underline{
+  end: "}}"
+  selector: entity.name.class
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{242C1E}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{A6E22E}\underline{
+  end: "}}"
+  selector: entity.other.inherited-class
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B2222}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: storage.modifier.extends
+- begin: "{\\color[HTML]{A6E22E}"
+  end: "}"
+  selector: entity.name.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E1FF3C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{424B27}
+  end: "}"
+  selector: storage.type.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{94CB13}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{E1FF3C}
+  end: "}"
+  selector: variable.parameter
+- begin: "{\\color[HTML]{F92672}"
+  end: "}"
+  selector: entity.name.tag
+- begin: "{\\color[HTML]{A6E22E}"
+  end: "}"
+  selector: entity.other.attribute-name
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{ECF2CE}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{66D9EF}
+  end: "}"
+  selector: support.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{070706}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{66D9EF}
+  end: "}"
+  selector: support.constant
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{19353B}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{3C808D}
+  end: "}"
+  selector: support.type, support.class
+- begin: "{"
+  end: "}"
+  selector: support.other.variable
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FF0000}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F0}
+  end: "}"
+  selector: invalid
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{AE81FF}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F0}
+  end: "}"
+  selector: invalid.deprecated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FF2400}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}
+  end: "}"
+  selector: constant.language.boolean.false,constant.language.boolean.false.actionscript
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{96FF00}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}
+  end: "}"
+  selector: constant.language.boolean.true, constant.language.boolean.true.actionscript
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{1A1B17}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source.js.embedded, source.php.embedded.block, source.ruby.embedded, source.css.embedded, source.ruby, source.js, source.actionscript
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{22231E}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0E280A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{82F827}
+  end: "}"
+  selector: meta.brace.round
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{050504}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.property-list.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{5D0F5B}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF13BE}
+  end: "}"
+  selector: variable.other.readwrite.instance.ruby
+- begin: "{\\color[HTML]{C3003A}"
+  end: "}"
+  selector: punctuation.definition.variable.ruby
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{1E1F1A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F800}
+  end: "}"
+  selector: source.ruby.embedded.source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{212E21}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.xml
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{800F7E}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{E1CAF6}
+  end: "}"
+  selector: keyword.control.at-rule.import.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{99CF2C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{A6E22E}
+  end: "}"
+  selector: entity.other.attribute-name.id.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E2E203}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F800}
+  end: "}"
+  selector: entity.other.attribute-name.class.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E22669}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F92672}
+  end: "}"
+  selector: entity.name.tag.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{CE6306}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F87200}
+  end: "}"
+  selector: entity.name.tag.wildcard.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{67143D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF0086}
+  end: "}"
+  selector: entity.other.attribute-name.pseudo-class.css,attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class
+- begin: "{\\color[HTML]{F8F8F2}"
+  end: "}"
+  selector: punctuation.terminator.rule.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{57594C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{66D9EF}
+  end: "}"
+  selector: meta.class.actionscript
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{273111}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F800}
+  end: "}"
+  selector: punctuation.definition.parameters.begin.actionscript,punctuation.definition.parameters.end.actionscript
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{1A1B17}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source.php
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{63C51E}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{BEFF1F}
+  end: "}"
+  selector: punctuation.section.embedded.php
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{690A3A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF0086}
+  end: "}"
+  selector: variable.other.php
+- begin: "{\\color[HTML]{C3003A}"
+  end: "}"
+  selector: punctuation.definition.variable.php
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{6FE41D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{74F01D}
+  end: "}"
+  selector: keyword.operator.string.php
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{282822}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.html.markdown
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{331422}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF0086}
+  end: "}"
+  selector: markup.heading.1.markdown
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{241419}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF0086}
+  end: "}"
+  selector: markup.heading.2.markdown
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0E280A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{74DE23}
+  end: "}"
+  selector: meta.link.inline.markdown
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{10100D}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.dummy.line-break
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{F8F8F2}\columncolor[HTML]{272822}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{8802DE}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

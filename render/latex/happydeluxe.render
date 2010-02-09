@@ -1,0 +1,75 @@
+--- 
+name: Happydeluxe
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: "{\\color[HTML]{35497C}"
+  end: "}"
+  selector: comment
+- begin: "{\\color[HTML]{FD66F9}"
+  end: "}"
+  selector: string
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: variable.language, variable.other
+- begin: "{\\color[HTML]{FE9006}"
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{FE9006}"
+  end: "}"
+  selector: storage
+- begin: "{\\color[HTML]{FC2D07}"
+  end: "}"
+  selector: invalid
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: constant.language
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: entity.name.class
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: entity.other.inherited-class
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: entity.name.tag
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: support.function
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: support.constant
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: support.type, support.class
+- begin: "{\\color[HTML]{14DED1}"
+  end: "}"
+  selector: support.other.variable
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{0E131E}}l}
+    \newcolumntype{N}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{15285A}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

@@ -1,0 +1,90 @@
+--- 
+name: Notepad 2
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFFF}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF8000}
+  end: "}"
+  selector: comment
+- begin: "{\\color[HTML]{008000}"
+  end: "}"
+  selector: string
+- begin: "{\\color[HTML]{FF0000}"
+  end: "}"
+  selector: constant.numeric
+- begin: "{\\textbf{"
+  end: "}}"
+  selector: constant.language
+- begin: "{"
+  end: "}"
+  selector: constant.character, constant.other
+- begin: "{\\color[HTML]{000080}\\textit{"
+  end: "}}"
+  selector: variable.language, variable.other
+- begin: "{\\color[HTML]{800080}"
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{800080}"
+  end: "}"
+  selector: storage
+- begin: "{"
+  end: "}"
+  selector: entity.name.class
+- begin: "{"
+  end: "}"
+  selector: entity.other.inherited-class
+- begin: "{\\color[HTML]{000000}"
+  end: "}"
+  selector: entity.name.function
+- begin: "{"
+  end: "}"
+  selector: variable.parameter
+- begin: "{\\color[HTML]{0000AF}"
+  end: "}"
+  selector: entity.name.tag
+- begin: "{\\color[HTML]{CE0000}"
+  end: "}"
+  selector: entity.other.attribute-name
+- begin: "{\\color[HTML]{800080}"
+  end: "}"
+  selector: support.function
+- begin: "{"
+  end: "}"
+  selector: support.constant
+- begin: "{"
+  end: "}"
+  selector: support.type, support.class
+- begin: "{"
+  end: "}"
+  selector: support.other.variable
+- begin: "{\\textbf{"
+  end: "}}"
+  selector: invalid
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{000000}\columncolor[HTML]{FFFFFF}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{98CCFF}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

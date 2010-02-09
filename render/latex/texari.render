@@ -1,0 +1,204 @@
+--- 
+name: Texari
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: "{\\color[HTML]{ECDFE7}"
+  end: "}"
+  selector: constant
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{8A2632}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFF6F6}
+  end: "}"
+  selector: invalid.illegal.attribute-value.unrecognized
+- begin: "{\\color[HTML]{C1C1C1}"
+  end: "}"
+  selector: entity.name
+- begin: "{\\color[HTML]{CDA869}"
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{F9EE98}"
+  end: "}"
+  selector: storage
+- begin: "{\\color[HTML]{817767}"
+  end: "}"
+  selector: string
+- begin: "{\\color[HTML]{9B859D}"
+  end: "}"
+  selector: support
+- begin: "{\\color[HTML]{7587A6}"
+  end: "}"
+  selector: variable
+- begin: "{\\color[HTML]{D2A8A1}\\textit{"
+  end: "}}"
+  selector: invalid.deprecated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{312723}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{EBE9F8}
+  end: "}"
+  selector: invalid.illegal
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{514846}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{5E5756}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.html.ruby source
+- begin: "{\\color[HTML]{9B5C2E}\\textit{"
+  end: "}}"
+  selector: entity.other.inherited-class
+- begin: "{\\color[HTML]{DAEFA3}"
+  end: "}"
+  selector: string.quoted source
+- begin: "{\\color[HTML]{DDF2A4}"
+  end: "}"
+  selector: string.constant
+- begin: "{\\color[HTML]{E9C062}"
+  end: "}"
+  selector: string.regexp
+- begin: "{\\color[HTML]{CF7D34}"
+  end: "}"
+  selector: string.regexp constant.character.escaped, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition
+- begin: "{\\color[HTML]{8A9A95}"
+  end: "}"
+  selector: string variable
+- begin: "{\\color[HTML]{DAD085}"
+  end: "}"
+  selector: support.function
+- begin: "{\\color[HTML]{CF6A4C}"
+  end: "}"
+  selector: support.constant
+- begin: "{\\color[HTML]{8996A8}"
+  end: "}"
+  selector: other.preprocessor.c
+- begin: "{\\color[HTML]{AFC4DB}"
+  end: "}"
+  selector: other.preprocessor.c entity
+- begin: "{\\color[HTML]{494949}"
+  end: "}"
+  selector: meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string
+- begin: "{\\color[HTML]{AC885B}"
+  end: "}"
+  selector: declaration.tag, declaration.tag entity, meta.tag, meta.tag entity
+- begin: "{\\color[HTML]{E0C589}"
+  end: "}"
+  selector: declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity
+- begin: "{\\color[HTML]{CDA869}"
+  end: "}"
+  selector: meta.selector.css entity.name.tag
+- begin: "{\\color[HTML]{8F9D6A}"
+  end: "}"
+  selector: meta.selector.css entity.other.attribute-name.tag.pseudo-class
+- begin: "{\\color[HTML]{8B98AB}"
+  end: "}"
+  selector: meta.selector.css entity.other.attribute-name.id
+- begin: "{\\color[HTML]{9B703F}"
+  end: "}"
+  selector: meta.selector.css entity.other.attribute-name.class
+- begin: "{\\color[HTML]{C5AF75}"
+  end: "}"
+  selector: support.type.property-name.css
+- begin: "{\\color[HTML]{F9EE98}"
+  end: "}"
+  selector: meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css
+- begin: "{\\color[HTML]{8693A5}"
+  end: "}"
+  selector: meta.preprocessor.at-rule keyword.control.at-rule
+- begin: "{\\color[HTML]{CA7840}"
+  end: "}"
+  selector: meta.property-value support.constant.named-color.css, meta.property-value constant
+- begin: "{\\color[HTML]{8F9D6A}"
+  end: "}"
+  selector: meta.constructor.argument.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0E2231}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F8}\textit{
+  end: "}}"
+  selector: meta.diff, meta.diff.header
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{420E09}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F8}
+  end: "}"
+  selector: markup.deleted
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{4A410D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F8}
+  end: "}"
+  selector: markup.changed
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{253B22}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8F8F8}
+  end: "}"
+  selector: markup.inserted
+- begin: "{\\color[HTML]{F9EE98}"
+  end: "}"
+  selector: markup.list
+- begin: "{\\color[HTML]{CF6A4C}"
+  end: "}"
+  selector: markup.heading
+- begin: "{\\color[HTML]{F8E3AA}"
+  end: "}"
+  selector: string.constant.prefix
+- begin: "{\\color[HTML]{B3F88C}"
+  end: "}"
+  selector: attribute-value.known.txp
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2E3942}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{7CC7B6}
+  end: "}"
+  selector: attribute-value.known.txp
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{151819}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{D3DC99}
+  end: "}"
+  selector: text.html.txp
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{51464E}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{ADE6FF}
+  end: "}"
+  selector: text.html.txp entity.name.tag.plugin.single.txp  attribute.with-value.txp
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{372A26}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{CAD0A8}
+  end: "}"
+  selector: txp.container.tag
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2F2C2A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{F8DAA0}
+  end: "}"
+  selector: entity.name.tag.txp
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{5B5354}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{ABC288}
+  end: "}"
+  selector: text.html.txp attribute.name
+- begin: "{\\color[HTML]{B76746}"
+  end: "}"
+  selector: entity.name.tag.single
+- begin: "{\\color[HTML]{B5C8A6}"
+  end: "}"
+  selector: meta.tag.sgml.doctype
+- begin: "{\\color[HTML]{CFA29D}"
+  end: "}"
+  selector: string.quoted.docinfo
+- begin: "{\\color[HTML]{DCE5F8}"
+  end: "}"
+  selector: string.other.tag.plugin
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{463C3B}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{7DAFC2}\textit{
+  end: "}}"
+  selector: text.html.txp string.quoted.double.html.strict
+- begin: "{\\color[HTML]{D7ECCE}"
+  end: "}"
+  selector: meta.tag.single
+- begin: "{\\color[HTML]{7DA6C2}"
+  end: "}"
+  selector: entity.name.tag.condition
+- begin: "{\\color[HTML]{959BB8}"
+  end: "}"
+  selector: keyword.operator.plugin
+- begin: "{\\color[HTML]{CCCCCC}\\textit{"
+  end: "}}"
+  selector: text.html.txp string.unquoted.txp.htmlcomment.txp
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{F8F8F8}\columncolor[HTML]{332722}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{FDFFD8}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

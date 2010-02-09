@@ -1,0 +1,180 @@
+--- 
+name: iLife 05
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{F4F3F4}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{333333}
+  end: "}"
+  selector: text
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFFF}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{565859}
+  end: "}"
+  selector: source -meta.source.embedded
+- begin: "{\\color[HTML]{C8415C}"
+  end: "}"
+  selector: meta.source.embedded
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFFF}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{666666}
+  end: "}"
+  selector: meta.source.embedded source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E6FAFF}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{308095}
+  end: "}"
+  selector: meta.source.embedded.bound
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{F4FFE6}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{B6D48F}
+  end: "}"
+  selector: meta.source.embedded.return-value
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFF7F}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: string.interpolated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C5E3EA}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{39A0BA}
+  end: "}"
+  selector: meta.tag, declaration.tag
+- begin: "{\\color[HTML]{308095}\\textbf{"
+  end: "}}"
+  selector: entity.name.tag
+- begin: "{"
+  end: "}"
+  selector: entity.other.attribute-name
+- begin: "{\\color[HTML]{69B200}"
+  end: "}"
+  selector: meta.tag string -(text source), declaration.tag string -(text source)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFFF}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.tag string &(text source), declaration.tag string &(text source), source string source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{ECEBEC}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}
+  end: "}"
+  selector: source string source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E2E2E2}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{B35EED}\textit{
+  end: "}}"
+  selector: comment
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFDEB}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{69B200}
+  end: "}"
+  selector: string
+- begin: "{"
+  end: "}"
+  selector: String Source String, meta.tag string source string
+- begin: "{\\color[HTML]{69B200}\\textbf{"
+  end: "}}"
+  selector: constant.numeric
+- begin: "{\\color[HTML]{1C7A1F}\\textbf{"
+  end: "}}"
+  selector: constant.language
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E3EED4}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{1C7A1F}
+  end: "}"
+  selector: constant.character, constant.other
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFEF4}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text source constant.character, text source constant.other
+- begin: "{\\color[HTML]{308095}\\textbf{"
+  end: "}}"
+  selector: variable.language, variable.other, variable
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FEF8F9}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}\textbf{
+  end: "}}"
+  selector: keyword
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{F5DEE3}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text source keyword
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{E1E1E1}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{999999}\textbf{
+  end: "}}"
+  selector: storage
+- begin: "{"
+  end: "}"
+  selector: entity.name.class
+- begin: "{"
+  end: "}"
+  selector: entity.other.inherited-class
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FAE6EB}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{D42755}
+  end: "}"
+  selector: support.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{69B200}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}\textbf{
+  end: "}}"
+  selector: entity.name.function, storage.type.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{1C7A1F}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{B6D48F}
+  end: "}"
+  selector: meta.property.function, meta.function
+- begin: "{\\color[HTML]{62D6F4}\\textbf{"
+  end: "}}"
+  selector: variable.parameter.function
+- begin: "{"
+  end: "}"
+  selector: support.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DAE9C6}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{69B200}
+  end: "}"
+  selector: support.constant
+- begin: "{"
+  end: "}"
+  selector: support.type, support.class
+- begin: "{"
+  end: "}"
+  selector: support.other.variable
+- begin: "{"
+  end: "}"
+  selector: invalid
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{D8E8D8}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{1C7A1F}
+  end: "}"
+  selector: support.class
+- begin: "{\\textbf{"
+  end: "}}"
+  selector: support.class.collection
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C5E3EA}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets, meta.property-list, comment.block.conditional
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DDEEF3}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: " meta.round-brackets meta.round-brackets, comment.block.conditional comment.block.conditional"
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DDEEF3}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: " meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional"
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DDEEF3}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: " meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional"
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DDEEF3}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{191919}
+  end: "}"
+  selector: " meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional"
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{DDEEF3}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: " meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional"
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFFF}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text.plain
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFCD}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{D76A00}
+  end: "}"
+  selector: keyword.other.go.sql
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FFFFCD}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.leading-space
+- begin: "{"
+  end: "}"
+  selector: source.css
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C5E3EA}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{39A0BA}
+  end: "}"
+  selector: meta.property-value.css
+- begin: "{\\color[HTML]{AA5500}"
+  end: "}"
+  selector: support.constant.property-value.css
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{333333}\columncolor[HTML]{FFFFFF}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{A600F6}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

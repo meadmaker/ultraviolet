@@ -1,0 +1,48 @@
+--- 
+name: Smurfy
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: "{\\color[HTML]{FFFF66}"
+  end: "}"
+  selector: comment
+- begin: "{\\color[HTML]{FF0000}\\textbf{"
+  end: "}}"
+  selector: string
+- begin: "{\\color[HTML]{00FF00}"
+  end: "}"
+  selector: entity.name
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{FF0000}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}
+  end: "}"
+  selector: invalid
+- begin: "{\\color[HTML]{FF6FCF}"
+  end: "}"
+  selector: keyword
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{19218B}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{BBD5FC}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

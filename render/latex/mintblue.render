@@ -1,0 +1,189 @@
+--- 
+name: mintBlue
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{656565}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{ECEBEC}
+  end: "}"
+  selector: source -meta.source.embedded, declaration.xml-processing
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{565656}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{787878}
+  end: "}"
+  selector: meta.source.embedded -meta.source.embedded.bound
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{A5DCF7}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{4C6C7B}
+  end: "}"
+  selector: meta.source.embedded.bound
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{4C6C7B}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{DCEDF5}
+  end: "}"
+  selector: meta.source.embedded.bound source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{D42755}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}
+  end: "}"
+  selector: meta.source.embedded.script-tag -(meta.source.embedded.script-tag source)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{596459}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source.js
+- begin: "{\\color[HTML]{BCDE90}\\underline{"
+  end: "}}"
+  selector: source string, constant
+- begin: "{\\color[HTML]{F9FAAB}"
+  end: "}"
+  selector: source string.quoted.single
+- begin: "{\\color[HTML]{99D8F6}"
+  end: "}"
+  selector: variable -(text string source), support
+- begin: "{\\color[HTML]{99D8F6}"
+  end: "}"
+  selector: constant.character.entity
+- begin: "{"
+  end: "}"
+  selector: text source -(declaration.tag string)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{9BB474}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{464646}
+  end: "}"
+  selector: text string source -meta.source.embedded.bound, meta.source.embedded.return-value -meta.source.embedded.bound, text string meta.source.embedded
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{878B8C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}
+  end: "}"
+  selector: source string source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{6B606B}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{BFA0D6}
+  end: "}"
+  selector: source comment
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C4AFD0}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{AB90C0}
+  end: "}"
+  selector: text comment -source, declaration.sgml
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{B1E0F7}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{99D8F6}
+  end: "}"
+  selector: declaration.tag, meta.tag
+- begin: "{"
+  end: "}"
+  selector: declaration.sgml
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C3E7F8}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{323232}\textbf{
+  end: "}}"
+  selector: entity.name.tag -source
+- begin: "{"
+  end: "}"
+  selector: declaration.attribute-with-value.id
+- begin: "{\\textit{"
+  end: "}}"
+  selector: entity.other.attribute-name
+- begin: "{\\color[HTML]{6A8B56}"
+  end: "}"
+  selector: declaration.tag string -(declaration.tag string source string), meta.tag string -(meta.tag string source string), meta.tag string meta.source.embedded.return-value
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{BFC8AC}{\rule[-0.5ex]{0pt}{2.0ex}\underline{
+  end: "}}"
+  selector: string
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{8AAA67}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: string.interpolated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{BDE8FF}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.ending-space -source
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{656565}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source meta.ending-space -(string meta.source)
+- begin: "{\\color[HTML]{5D5D5D}\\underline{"
+  end: "}}"
+  selector: source meta.leading-space -(string meta.source)
+- begin: "{\\color[HTML]{697074}"
+  end: "}"
+  selector: source meta.even-tab -(string meta.source)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{BDE8FF}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.leading-space -meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{F1F5E5}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: string meta.source meta.leading-space, string meta.source meta.ending-space
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{9BB474}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: string meta.source meta.ending-space
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{BDE8FF}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.even-tab -meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{404040}{\rule[-0.5ex]{0pt}{2.0ex}\underline{
+  end: "}}"
+  selector: meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{86A175}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: text string source test
+- begin: "{"
+  end: "}"
+  selector: support.function
+- begin: "{\\color[HTML]{B6D48F}\\textbf{"
+  end: "}}"
+  selector: keyword
+- begin: "{\\color[HTML]{000000}"
+  end: "}"
+  selector: keyword.operator
+- begin: "{"
+  end: "}"
+  selector: variable &(text string source)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{99D8F6}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{424252}
+  end: "}"
+  selector: variable.parameter.function, meta.function variable, support.class
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{C2DB90}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{344152}
+  end: "}"
+  selector: meta.function, storage.type, support.function, entity.name.function
+- begin: "{"
+  end: "}"
+  selector: meta.function  -(text declaration.tag string source), storage.type -(text declaration.tag string source)
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{F9FAAB}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{1C7A1F}
+  end: "}"
+  selector: storage, storage.type.function, declaration.class
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{809960}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{BADF8B}
+  end: "}"
+  selector: support.function, support.function entity.name.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{D42755}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: invalid -declaration.sgml -source
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{323232}\columncolor[HTML]{FFFFFF}}l}
+    \newcolumntype{N}{>{\color[HTML]{000000}\columncolor[HTML]{D89CF5}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

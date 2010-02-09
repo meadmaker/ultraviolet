@@ -1,0 +1,171 @@
+--- 
+name: Dominion Day
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B093C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{83529D}
+  end: "}"
+  selector: absolutely none
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B093C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{83529D}
+  end: "}"
+  selector: absolutely none
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B093C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{83529D}
+  end: "}"
+  selector: absolutely none
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B093C}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{83529D}
+  end: "}"
+  selector: absolutely none
+- begin: "{\\color[HTML]{5B55FE}"
+  end: "}"
+  selector: keyword - keyword.operator, keyword.operator.logical
+- begin: "{\\color[HTML]{5B55FE}"
+  end: "}"
+  selector: storage
+- begin: "{\\color[HTML]{554D9D}"
+  end: "}"
+  selector: comment, string.quoted.double.block.python
+- begin: "{\\color[HTML]{83529D}"
+  end: "}"
+  selector: string
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: constant, variable.other.constant.ruby
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: entity.name.function, meta.function-call
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: support
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: entity
+- begin: "{\\color[HTML]{5D935D}"
+  end: "}"
+  selector: variable.parameter, variable.other
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{D10000}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{A3FFA6}
+  end: "}"
+  selector: invalid
+- begin: "{\\color[HTML]{A5A4C5}"
+  end: "}"
+  selector: keyword.operator
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: support.variable.magic.python
+- begin: "{\\color[HTML]{D4A5F3}"
+  end: "}"
+  selector: variable.parameter.function.python, meta.function-call.arguments.python
+- begin: "{\\color[HTML]{B9ADD7}"
+  end: "}"
+  selector: punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python
+- begin: "{\\color[HTML]{5D935D}"
+  end: "}"
+  selector: meta.function.decorator.python, entity.name.function.decorator.python, meta.function.decorator.arguments.python
+- begin: "{\\color[HTML]{B9ADD7}"
+  end: "}"
+  selector: variable.parameter.function.ruby
+- begin: "{\\color[HTML]{651E8A}"
+  end: "}"
+  selector: variable.other.readwrite.global.ruby
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: variable.other.readwrite.class.ruby
+- begin: "{\\color[HTML]{C5A1D7}"
+  end: "}"
+  selector: variable.other.readwrite.instance.ruby
+- begin: "{\\color[HTML]{471062}"
+  end: "}"
+  selector: entity.name.tag, punctuation.definition.tag
+- begin: "{\\color[HTML]{65158F}"
+  end: "}"
+  selector: entity.other.attribute-name, meta.tag.any.html
+- begin: "{\\color[HTML]{471062}"
+  end: "}"
+  selector: meta.tag.block.any.html, entity.name.tag.block.any.html
+- begin: "{\\color[HTML]{83529D}"
+  end: "}"
+  selector: meta.tag.structure.any.html punctuation.definition.tag.html, meta.tag.structure.any.html, entity.name.tag.structure.any.html
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: meta.tag.sgml.html, entity.name.tag.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: meta.tag.inline.any.html, meta.tag.inline.any.html punctuation.definition.tag.html, meta.tag.inline.any.html entity.other.attribute-name.html, entity.name.tag.inline.any.html
+- begin: "{\\color[HTML]{65158F}"
+  end: "}"
+  selector: meta.tag.inline.any.html entity.other.attribute-name.html
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: source.js.embedded.html punctuation.definition.tag.html, entity.name.tag.script
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: punctuation.definition.embedded.begin.php, meta.consecutive-tags.php, punctuation.definition.embedded.end.php
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: variable.other.global.php, variable.other.global.safer.php
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: punctuation.definition.variable.php
+- begin: "{\\color[HTML]{C5A1D7}"
+  end: "}"
+  selector: variable.other.php
+- begin: "{\\color[HTML]{5450FF}"
+  end: "}"
+  selector: variable.language.js, keyword.operator.new.js
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: entity.name.tag.css
+- begin: "{\\color[HTML]{971BA1}"
+  end: "}"
+  selector: source.yaml entity.name.tag.yaml
+- begin: "{\\color[HTML]{651E8A}"
+  end: "}"
+  selector: entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, entity.other.attribute-name.attribute.css
+- begin: "{\\color[HTML]{83529D}"
+  end: "}"
+  selector: support.type.property-name.css
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: punctuation.definition.entity.css, meta.selector.css
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: keyword.other.unit.css
+- begin: "{\\color[HTML]{B36FD6}"
+  end: "}"
+  selector: variable.parameter.url.css
+- begin: "{\\color[HTML]{C5A1D7}"
+  end: "}"
+  selector: constant.numeric.css, constant.other.color.rgb-value.css, variable.parameter.misc.css
+- begin: "{\\color[HTML]{C5A1D7}"
+  end: "}"
+  selector: meta.property-value.css, meta.property-list.css, source.css, string.quoted.double.attribute-value.css
+- begin: "{\\color[HTML]{5D935D}"
+  end: "}"
+  selector: entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{B9ADD7}\columncolor[HTML]{000000}}l}
+    \newcolumntype{N}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{3A5A3C}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"

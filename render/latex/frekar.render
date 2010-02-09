@@ -1,0 +1,147 @@
+--- 
+name: Frekar
+line: 
+  begin: ""
+  end: "}}\\\\"
+filter: "@escaped.gsub(/(\\$)/, '\\\\\\\\\\1').gsub(/\\\\(?!\\$)/, '$\\\\\\\\backslash$').gsub(/(_|\\{|\\}|&|\\#|%)/, '\\\\\\\\\\1').gsub(/~/, '\\\\textasciitilde ').gsub(/ /,'\\\\hspace{1ex}').gsub(/\\t| /,'\\\\hspace{3ex}').gsub(/\\\"/, \"''\").gsub(/(\\^)/,'\\\\\\\\\\1{}')"
+document: 
+  begin: |
+    \documentclass[a4paper,landscape]{article}
+    \usepackage{xcolor}
+    \usepackage{colortbl}
+    \usepackage{longtable}
+    \usepackage[left=2cm,top=1cm,right=3cm,nohead,nofoot]{geometry}
+    \usepackage[T1]{fontenc}
+    \usepackage[scaled]{beramono}
+    \begin{document}
+
+  end: |
+    \end{document}
+
+tags: 
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{000000}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}
+  end: "}"
+  selector: text
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{161616}{\rule[-0.5ex]{0pt}{2.0ex}
+  end: "}"
+  selector: source.ruby.rails.embedded.html
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{0E0E0E}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FFFFFF}
+  end: "}"
+  selector: text.html.ruby
+- begin: "{\\color[HTML]{9A32A9}"
+  end: "}"
+  selector: constant.numeric.ruby
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{000000}{\rule[-0.5ex]{0pt}{2.0ex}\textit{
+  end: "}}"
+  selector: source.ruby
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{000711}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{0066FF}
+  end: "}"
+  selector: comment
+- begin: "{\\color[HTML]{9933CC}"
+  end: "}"
+  selector: constant
+- begin: "{\\color[HTML]{FFF9F9}\\textit{"
+  end: "}}"
+  selector: keyword.special
+- begin: "{\\color[HTML]{FF00FF}"
+  end: "}"
+  selector: support.constant
+- begin: "{\\color[HTML]{FFFFFF}\\textit{"
+  end: "}}"
+  selector: support.object
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{000000}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF00FF}
+  end: "}"
+  selector: keyword
+- begin: "{\\color[HTML]{E72CF9}"
+  end: "}"
+  selector: support.function
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{2B082A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF00FF}\underline{
+  end: "}}"
+  selector: entity.name.function
+- begin: "{\\color[HTML]{EDF8F9}"
+  end: "}"
+  selector: keyword.preprocessor
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: keyword.preprocessor directive
+- begin: "{\\color[HTML]{989898}\\textit{"
+  end: "}}"
+  selector: variable.parameter
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{00112A}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{0066FF}
+  end: "}"
+  selector: source comment.block
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: variable.other
+- begin: "{\\color[HTML]{999966}"
+  end: "}"
+  selector: support.function.activerecord.rails
+- begin: "{\\color[HTML]{989898}"
+  end: "}"
+  selector: string
+- begin: "{\\color[HTML]{AAAAAA}"
+  end: "}"
+  selector: string constant.character.escape
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{989898}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{000000}
+  end: "}"
+  selector: string.interpolated
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{3D003D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF00DD}
+  end: "}"
+  selector: string.regexp
+- begin: "{\\color[HTML]{989898}"
+  end: "}"
+  selector: string.literal
+- begin: \setlength{\fboxsep}{0ex}\colorbox[HTML]{3D003D}{\rule[-0.5ex]{0pt}{2.0ex}\color[HTML]{FF00DD}
+  end: "}"
+  selector: string.interpolated constant.character.escape
+- begin: "{\\color[HTML]{FF98FF}"
+  end: "}"
+  selector: entity.name.class, support.class
+- begin: "{\\color[HTML]{FF98FF}\\textit{"
+  end: "}}"
+  selector: entity.other.inherited-class
+- begin: "{\\color[HTML]{FF00F9}"
+  end: "}"
+  selector: entity.name.tag
+- begin: "{\\color[HTML]{FF98FF}\\textit{"
+  end: "}}"
+  selector: entity.other.attribute-name
+- begin: "{\\color[HTML]{9933CC}"
+  end: "}"
+  selector: keyword.other
+- begin: "{\\color[HTML]{FF00FF}"
+  end: "}"
+  selector: meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css
+- begin: "{\\color[HTML]{FF98FF}"
+  end: "}"
+  selector: support.type.property-name.css
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: keyword.other.unit.css, constant.other.rgb-value.css, constant.numeric.css
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: support.function.event-handler.js
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: keyword.operator.js
+- begin: "{\\color[HTML]{FF98FF}\\textit{"
+  end: "}}"
+  selector: keyword.control.js
+- begin: "{\\color[HTML]{FFFFFF}"
+  end: "}"
+  selector: support.class.prototype.js
+- begin: "{\\color[HTML]{FF00FF}"
+  end: "}"
+  selector: object.property.function.prototype.js
+listing: 
+  begin: |
+    \newcolumntype{C}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{000000}}l}
+    \newcolumntype{N}{>{\color[HTML]{FFFFFF}\columncolor[HTML]{3D003D}}l}
+    \begin{longtable}{NC}
+
+  end: |
+    \end{longtable}
+
+line-numbers: 
+  begin: \texttt{
+  end: "}&\\mbox{\\texttt{"
