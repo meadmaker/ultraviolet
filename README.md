@@ -106,13 +106,16 @@ are handled for transparencies.  Hand-editing the css is recommended.
 
 ## CREDITS:
 
-* [Dizan Vasquez][7] is the original author of [ultraviolet][8].
-* [Eric Sherman][9] added themes and pushed a [gem][10].
+* [Dizan Vasquez][7] is the original author of [Ultraviolet][8].
+* [Guillaume Maury][9] brought the project to [github][10].
+* [Eric Sherman][11] added themes and pushed a [gem][12].
 
 [7]:http://dizanvasquez.net/
 [8]:http://ultraviolet.rubyforge.org/index.xhtml
-[9]:http://github.com/hyperbolist
-[10]:http://gemcutter.org/gems/hyperbolist-ultraviolet
+[9]:http://gom-jabbar.org/
+[10]:http://github.com/giom/ultraviolet
+[11]:http://github.com/hyperbolist
+[12]:http://gemcutter.org/gems/hyperbolist-ultraviolet
 
 ## LICENSE:
 
