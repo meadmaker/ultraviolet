@@ -1,0 +1,96 @@
+pre.railscasts .TodoTaskQuestion {
+   color: #82A7E2;
+}
+pre.railscasts .TodoCategoryName {
+   color: #E8BF6A;
+}
+pre.railscasts .String {
+   color: #A5C261;
+}
+pre.railscasts .Constant {
+   color: #6D9CBE;
+}
+pre.railscasts .Source {
+   background-color: #282828;
+}
+pre.railscasts .line-numbers {
+   background-color: #5A647E;
+   color: #FFFFFF;
+}
+pre.railscasts .TodoTaskDormant {
+   color: #807C79;
+}
+pre.railscasts .Variable {
+   color: #D0D0FF;
+}
+pre.railscasts .DiffHeader {
+   background-color: #2F33AB;
+}
+pre.railscasts .TodoCategoryExtras {
+   color: #BC9458;
+}
+pre.railscasts .DiffRemove {
+   background-color: #660000;
+   color: #E6E1DC;
+}
+pre.railscasts .DiffAdd {
+   background-color: #144212;
+   color: #E6E1DC;
+}
+pre.railscasts .BlockParameter {
+   color: #E6E1DC;
+}
+pre.railscasts .Number {
+   color: #A5C261;
+}
+pre.railscasts .StringInterpolation {
+   color: #519F50;
+}
+pre.railscasts .FunctionDefinition {
+   color: #FFC66D;
+}
+pre.railscasts .TodoTaskLarge {
+   color: #A5C261;
+}
+pre.railscasts .MarkupTag {
+   color: #E8BF6A;
+}
+pre.railscasts .LibraryConstant {
+   color: #A5C261;
+}
+pre.railscasts .ConstantOtherVariable {
+   color: #DA4939;
+}
+pre.railscasts .LibraryFunction {
+   color: #DA4939;
+}
+pre.railscasts .Keyword {
+   color: #CC7833;
+}
+pre.railscasts .ConstantBuiltIn {
+   color: #6E9CBE;
+}
+pre.railscasts {
+   background-color: #323232;
+   color: #E6E1DC;
+}
+pre.railscasts .TodoTaskComplete {
+   color: #DA4939;
+}
+pre.railscasts .Invalid {
+   background-color: #990000;
+   color: #FFFFFF;
+}
+pre.railscasts .LibraryType {
+   color: #6E9CBE;
+}
+pre.railscasts .ClassDefinition {
+   color: #FFFFFF;
+}
+pre.railscasts .TodoUrgent {
+   color: #FEFF00;
+}
+pre.railscasts .Comment {
+   color: #BC9458;
+   font-style: italic;
+}
