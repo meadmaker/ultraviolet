@@ -63,8 +63,8 @@ See [usage][4].
     made_of_code, magicwb_amiga, merbivore, merbivore_soft, midnight,
     minimal_theme, mintblue, mintblue_dark, monoindustrial, monokai,
     monokai_for_textmaters_custom, notepad2, overcast, pastels_on_dark,
-    plasticcodewrap, rubyblue, sin_city_2, slush_poppies, smoothy, smurfy,
-    spacecadet, starlight, sunburst, swyphs_ii, tango, tek, texari,
+    plasticcodewrap, railscasts, rubyblue, sin_city_2, slush_poppies, smoothy,
+    smurfy, spacecadet, starlight, sunburst, swyphs_ii, tango, tek, texari,
     text_ex_machina, twilight, twilight_bg_fg, upstream, upstream_sunburst,
     upstream_vibrant, vibrant_ink, whys_poignant, zenburnesque
 
@@ -79,6 +79,10 @@ From versions >= 0.10.202
 * [TextMate User-Submitted Themes](http://wiki.macromates.com/Themes/UserSubmittedThemes)
 * [VibrantInk](http://alternateidea.com/blog/articles/2006/01/03/textmate-vibrant-ink-theme-and-prototype-bundle)
 * [GitHub Theme](http://github.com/blog/73-github-textmate-theme)
+
+From versions >= 0.10.203
+
+* [RailsCasts Theme](http://railscasts.com/about)
 
 ## COPY CSS
 
