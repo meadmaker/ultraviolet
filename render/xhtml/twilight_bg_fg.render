@@ -285,3 +285,12 @@ listing:
 line-numbers: 
   begin: <span class="line-numbers">
   end: </span>
+diff:
+  add-begin: <span class="DiffLineAdd">
+  add-end: </span>
+  change-begin: <span class="DiffLineChange">
+  change-end: </span>
+  delete-begin: <span class="DiffLineDelete">
+  delete-end: </span>
+  missing: <span class="DiffLineMissing">     </span>
+
